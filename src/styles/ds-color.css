@@ -1,0 +1,1415 @@
+.light-fg-default {
+  background: rgba(14, 17, 23, 1);
+}
+
+.light-fg-soft {
+  background: rgba(68, 83, 113, 1);
+}
+
+.light-fg-muted {
+  background: rgba(133, 143, 163, 1);
+}
+
+.light-fg-disabled {
+  background: rgba(68, 83, 113, 0.5);
+}
+
+.light-bg-surface1 {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-bg-surface2 {
+  background: rgba(241, 243, 249, 1);
+}
+
+.light-bg-surface3 {
+  background: rgba(232, 235, 244, 1);
+}
+
+.light-bg-surface4 {
+  background: rgba(208, 217, 233, 1);
+}
+
+.light-bg-page {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-bg-disabled {
+  background: rgba(16, 51, 128, 0.1);
+}
+
+.light-bg-surface0 {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-bg-elevated-0 {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-bg-elevated-s {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-bg-elevated-m {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-bg-elevated-l {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-bg-elevated-xl {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-border-default {
+  background: rgba(161, 169, 184, 1);
+}
+
+.light-border-soft {
+  background: rgba(208, 212, 220, 1);
+}
+
+.light-border-muted {
+  background: rgba(236, 238, 241, 1);
+}
+
+.light-accent-default {
+  background: rgba(0, 85, 255, 1);
+}
+
+.light-accent-soft {
+  background: rgba(51, 119, 255, 1);
+}
+
+.light-accent-muted {
+  background: rgba(128, 170, 255, 1);
+}
+
+.light-accent-hover {
+  background: rgba(0, 72, 217, 1);
+}
+
+.light-accent-active {
+  background: rgba(0, 59, 179, 1);
+}
+
+.light-accent-on-accent {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-accent-container-default {
+  background: rgba(0, 85, 255, 0.1);
+}
+
+.light-accent-container-soft {
+  background: rgba(0, 85, 255, 0.05);
+}
+
+.light-accent-container-muted {
+  background: rgba(0, 85, 255, 0.03);
+}
+
+.light-accent-container-hover {
+  background: rgba(0, 85, 255, 0.2);
+}
+
+.light-accent-container-active {
+  background: rgba(0, 85, 255, 0.3);
+}
+
+.light-accent-on-container {
+  background: rgba(0, 85, 255, 1);
+}
+
+.light-neutral-default {
+  background: rgba(68, 83, 113, 1);
+}
+
+.light-neutral-soft {
+  background: rgba(105, 117, 142, 1);
+}
+
+.light-neutral-muted {
+  background: rgba(161, 169, 184, 1);
+}
+
+.light-neutral-hover {
+  background: rgba(58, 71, 96, 1);
+}
+
+.light-neutral-active {
+  background: rgba(48, 58, 79, 1);
+}
+
+.light-neutral-on-neutral {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-neutral-container-default {
+  background: rgba(68, 83, 113, 0.1);
+}
+
+.light-neutral-container-soft {
+  background: rgba(68, 83, 113, 0.05);
+}
+
+.light-neutral-container-muted {
+  background: rgba(68, 83, 113, 0.03);
+}
+
+.light-neutral-container-hover {
+  background: rgba(68, 83, 113, 0.2);
+}
+
+.light-neutral-container-active {
+  background: rgba(68, 83, 113, 0.3);
+}
+
+.light-neutral-on-container {
+  background: rgba(68, 83, 113, 1);
+}
+
+.light-success-default {
+  background: rgba(13, 190, 105, 1);
+}
+
+.light-success-soft {
+  background: rgba(61, 203, 135, 1);
+}
+
+.light-success-muted {
+  background: rgba(134, 223, 180, 1);
+}
+
+.light-success-hover {
+  background: rgba(11, 161, 89, 1);
+}
+
+.light-success-active {
+  background: rgba(9, 133, 73, 1);
+}
+
+.light-success-on-success {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-success-container-default {
+  background: rgba(13, 190, 105, 0.1);
+}
+
+.light-success-container-soft {
+  background: rgba(13, 190, 105, 0.05);
+}
+
+.light-success-container-muted {
+  background: rgba(13, 190, 105, 0.03);
+}
+
+.light-success-container-hover {
+  background: rgba(13, 190, 105, 0.2);
+}
+
+.light-success-container-active {
+  background: rgba(13, 190, 105, 0.3);
+}
+
+.light-success-on-container {
+  background: rgba(13, 190, 105, 1);
+}
+
+.light-warning-default {
+  background: rgba(238, 145, 35, 1);
+}
+
+.light-warning-soft {
+  background: rgba(241, 167, 79, 1);
+}
+
+.light-warning-muted {
+  background: rgba(247, 200, 145, 1);
+}
+
+.light-warning-hover {
+  background: rgba(202, 123, 30, 1);
+}
+
+.light-warning-active {
+  background: rgba(167, 101, 25, 1);
+}
+
+.light-warning-on-warning {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-warning-container-default {
+  background: rgba(238, 145, 35, 0.1);
+}
+
+.light-warning-container-soft {
+  background: rgba(238, 145, 35, 0.05);
+}
+
+.light-warning-container-muted {
+  background: rgba(238, 145, 35, 0.03);
+}
+
+.light-warning-container-hover {
+  background: rgba(238, 145, 35, 0.2);
+}
+
+.light-warning-container-active {
+  background: rgba(238, 145, 35, 0.3);
+}
+
+.light-warning-on-container {
+  background: rgba(202, 123, 30, 1);
+}
+
+.light-error-default {
+  background: rgba(255, 71, 71, 1);
+}
+
+.light-error-soft {
+  background: rgba(255, 108, 108, 1);
+}
+
+.light-error-muted {
+  background: rgba(255, 163, 163, 1);
+}
+
+.light-error-hover {
+  background: rgba(217, 60, 60, 1);
+}
+
+.light-error-active {
+  background: rgba(179, 50, 50, 1);
+}
+
+.light-error-on-error {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-error-container-default {
+  background: rgba(255, 71, 71, 0.1);
+}
+
+.light-error-container-soft {
+  background: rgba(255, 71, 71, 0.05);
+}
+
+.light-error-container-muted {
+  background: rgba(255, 71, 71, 0.03);
+}
+
+.light-error-container-hover {
+  background: rgba(255, 71, 71, 0.2);
+}
+
+.light-error-container-active {
+  background: rgba(255, 71, 71, 0.3);
+}
+
+.light-error-on-container {
+  background: rgba(255, 71, 71, 1);
+}
+
+.light-info-default {
+  background: rgba(25, 152, 255, 1);
+}
+
+.light-info-soft {
+  background: rgba(71, 173, 255, 1);
+}
+
+.light-info-muted {
+  background: rgba(140, 203, 255, 1);
+}
+
+.light-info-hover {
+  background: rgba(21, 129, 217, 1);
+}
+
+.light-info-active {
+  background: rgba(17, 106, 179, 1);
+}
+
+.light-info-on-info {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-info-container-default {
+  background: rgba(25, 152, 255, 0.1);
+}
+
+.light-info-container-soft {
+  background: rgba(25, 152, 255, 0.05);
+}
+
+.light-info-container-muted {
+  background: rgba(25, 152, 255, 0.03);
+}
+
+.light-info-container-hover {
+  background: rgba(25, 152, 255, 0.2);
+}
+
+.light-info-container-active {
+  background: rgba(25, 152, 255, 0.3);
+}
+
+.light-info-on-container {
+  background: rgba(25, 152, 255, 1);
+}
+
+.light-status-01-default {
+  background: rgba(59, 188, 158, 1);
+}
+
+.light-status-01-soft {
+  background: rgba(98, 201, 177, 1);
+}
+
+.light-status-01-muted {
+  background: rgba(157, 222, 207, 1);
+}
+
+.light-status-01-hover {
+  background: rgba(50, 160, 134, 1);
+}
+
+.light-status-01-active {
+  background: rgba(41, 132, 111, 1);
+}
+
+.light-status-01-on-status-01 {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-status-01-container-default {
+  background: rgba(59, 188, 158, 0.1);
+}
+
+.light-status-01-container-soft {
+  background: rgba(59, 188, 158, 0.05);
+}
+
+.light-status-01-container-muted {
+  background: rgba(59, 188, 158, 0.03);
+}
+
+.light-status-01-container-hover {
+  background: rgba(59, 188, 158, 0.2);
+}
+
+.light-status-01-container-active {
+  background: rgba(59, 188, 158, 0.3);
+}
+
+.light-status-01-on-container {
+  background: rgba(59, 188, 158, 1);
+}
+
+.light-status-02-active {
+  background: rgba(33, 108, 179, 1);
+}
+
+.light-status-02-container-default {
+  background: rgba(47, 154, 255, 0.1);
+}
+
+.light-status-02-container-soft {
+  background: rgba(47, 154, 255, 0.05);
+}
+
+.light-status-02-container-muted {
+  background: rgba(47, 154, 255, 0.03);
+}
+
+.light-status-02-container-hover {
+  background: rgba(47, 154, 255, 0.2);
+}
+
+.light-status-02-container-active {
+  background: rgba(47, 154, 255, 0.3);
+}
+
+.light-status-02-on-container {
+  background: rgba(47, 154, 255, 1);
+}
+
+.light-status-02-default {
+  background: rgba(47, 154, 255, 1);
+}
+
+.light-status-02-hover {
+  background: rgba(40, 131, 217, 1);
+}
+
+.light-status-02-muted {
+  background: rgba(151, 205, 255, 1);
+}
+
+.light-status-02-soft {
+  background: rgba(88, 174, 255, 1);
+}
+
+.light-status-02-on-status-02 {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-status-03-active {
+  background: rgba(73, 57, 172, 1);
+}
+
+.light-status-03-on-status-03 {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-status-03-container-default {
+  background: rgba(105, 82, 245, 0.1);
+}
+
+.light-status-03-hover {
+  background: rgba(89, 70, 208, 1);
+}
+
+.light-status-03-container-soft {
+  background: rgba(105, 82, 245, 0.05);
+}
+
+.light-status-03-muted {
+  background: rgba(180, 169, 250, 1);
+}
+
+.light-status-03-container-muted {
+  background: rgba(105, 82, 245, 0.03);
+}
+
+.light-status-03-container-hover {
+  background: rgba(105, 82, 245, 0.2);
+}
+
+.light-status-03-container-active {
+  background: rgba(105, 82, 245, 0.3);
+}
+
+.light-status-03-soft {
+  background: rgba(135, 117, 247, 1);
+}
+
+.light-status-03-default {
+  background: rgba(105, 82, 245, 1);
+}
+
+.light-status-03-on-container {
+  background: rgba(105, 82, 245, 1);
+}
+
+.light-status-04-default {
+  background: rgba(153, 36, 255, 1);
+}
+
+.light-status-04-soft {
+  background: rgba(173, 80, 255, 1);
+}
+
+.light-status-04-muted {
+  background: rgba(204, 146, 255, 1);
+}
+
+.light-status-04-hover {
+  background: rgba(130, 31, 217, 1);
+}
+
+.light-status-04-active {
+  background: rgba(107, 25, 179, 1);
+}
+
+.light-status-04-on-status-04 {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-status-04-container-default {
+  background: rgba(153, 36, 255, 0.1);
+}
+
+.light-status-04-container-soft {
+  background: rgba(153, 36, 255, 0.05);
+}
+
+.light-status-04-container-muted {
+  background: rgba(153, 36, 255, 0.03);
+}
+
+.light-status-04-container-hover {
+  background: rgba(153, 36, 255, 0.2);
+}
+
+.light-status-04-container-active {
+  background: rgba(153, 36, 255, 0.3);
+}
+
+.light-status-04-on-container {
+  background: rgba(153, 36, 255, 1);
+}
+
+.light-status-05-default {
+  background: rgba(227, 58, 130, 1);
+}
+
+.light-status-05-soft {
+  background: rgba(233, 97, 155, 1);
+}
+
+.light-status-05-muted {
+  background: rgba(241, 157, 193, 1);
+}
+
+.light-status-05-hover {
+  background: rgba(193, 49, 110, 1);
+}
+
+.light-status-05-active {
+  background: rgba(159, 41, 91, 1);
+}
+
+.light-status-05-on-status-05 {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-status-05-container-default {
+  background: rgba(227, 58, 130, 0.1);
+}
+
+.light-status-05-container-soft {
+  background: rgba(227, 58, 130, 0.05);
+}
+
+.light-status-05-container-muted {
+  background: rgba(227, 58, 130, 0.03);
+}
+
+.light-status-05-container-hover {
+  background: rgba(227, 58, 130, 0.2);
+}
+
+.light-status-05-container-active {
+  background: rgba(227, 58, 130, 0.3);
+}
+
+.light-status-05-on-container {
+  background: rgba(227, 58, 130, 1);
+}
+
+.light-status-06-default {
+  background: rgba(255, 79, 18, 1);
+}
+
+.light-status-06-soft {
+  background: rgba(255, 114, 65, 1);
+}
+
+.light-status-06-muted {
+  background: rgba(255, 167, 136, 1);
+}
+
+.light-status-06-hover {
+  background: rgba(217, 67, 15, 1);
+}
+
+.light-status-06-active {
+  background: rgba(179, 55, 13, 1);
+}
+
+.light-status-06-on-status-06 {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-status-06-container-default {
+  background: rgba(255, 79, 18, 0.1);
+}
+
+.light-status-06-container-soft {
+  background: rgba(255, 79, 18, 0.05);
+}
+
+.light-status-06-container-muted {
+  background: rgba(255, 79, 18, 0.03);
+}
+
+.light-status-06-container-hover {
+  background: rgba(255, 79, 18, 0.2);
+}
+
+.light-status-06-container-active {
+  background: rgba(255, 79, 18, 0.3);
+}
+
+.light-status-06-on-container {
+  background: rgba(255, 79, 18, 1);
+}
+
+.light-interactive-accent {
+  background: rgba(0, 85, 255, 1);
+}
+
+.light-interactive-accent-hover {
+  background: rgba(0, 72, 217, 1);
+}
+
+.light-interactive-accent-active {
+  background: rgba(0, 59, 179, 1);
+}
+
+.light-interactive-on-accent {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-interactive-error-default {
+  background: rgba(255, 71, 71, 1);
+}
+
+.light-interactive-error-hover {
+  background: rgba(217, 60, 60, 1);
+}
+
+.light-interactive-error-active {
+  background: rgba(179, 50, 50, 1);
+}
+
+.light-interactive-error-on-error {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-static-white {
+  background: rgba(255, 255, 255, 1);
+}
+
+.light-static-black {
+  background: rgba(14, 17, 23, 1);
+}
+
+.light-static-success {
+  background: rgba(13, 190, 105, 1);
+}
+
+.light-static-warning {
+  background: rgba(238, 145, 35, 1);
+}
+
+.light-static-error {
+  background: rgba(255, 71, 71, 1);
+}
+
+.light-static-info {
+  background: rgba(25, 152, 255, 1);
+}
+
+.dark-fg-default {
+  background: rgba(233, 234, 236, 1);
+}
+
+.dark-fg-soft {
+  background: rgba(172, 175, 181, 1);
+}
+
+.dark-fg-muted {
+  background: rgba(147, 151, 159, 1);
+}
+
+.dark-fg-disabled {
+  background: rgba(172, 175, 181, 0.5);
+}
+
+.dark-border-default {
+  background: rgba(89, 95, 107, 1);
+}
+
+.dark-border-soft {
+  background: rgba(68, 72, 81, 1);
+}
+
+.dark-border-muted {
+  background: rgba(58, 62, 70, 1);
+}
+
+.dark-accent-default {
+  background: rgba(128, 170, 255, 1);
+}
+
+.dark-accent-soft {
+  background: rgba(89, 145, 255, 1);
+}
+
+.dark-accent-muted {
+  background: rgba(51, 119, 255, 1);
+}
+
+.dark-accent-hover {
+  background: rgba(191, 212, 255, 1);
+}
+
+.dark-accent-active {
+  background: rgba(230, 238, 255, 1);
+}
+
+.dark-accent-on-accent {
+  background: rgba(0, 30, 89, 1);
+}
+
+.dark-accent-container-default {
+  background: rgba(51, 119, 255, 0.2);
+}
+
+.dark-accent-container-soft {
+  background: rgba(51, 119, 255, 0.1);
+}
+
+.dark-accent-container-muted {
+  background: rgba(51, 119, 255, 0.05);
+}
+
+.dark-accent-container-hover {
+  background: rgba(51, 119, 255, 0.3);
+}
+
+.dark-accent-container-active {
+  background: rgba(51, 119, 255, 0.4);
+}
+
+.dark-accent-on-container {
+  background: rgba(128, 170, 255, 1);
+}
+
+.dark-neutral-default {
+  background: rgba(172, 175, 181, 1);
+}
+
+.dark-neutral-soft {
+  background: rgba(147, 151, 159, 1);
+}
+
+.dark-neutral-muted {
+  background: rgba(122, 127, 137, 1);
+}
+
+.dark-neutral-hover {
+  background: rgba(213, 215, 218, 1);
+}
+
+.dark-neutral-active {
+  background: rgba(233, 234, 236, 1);
+}
+
+.dark-neutral-on-neutral {
+  background: rgba(31, 33, 37, 1);
+}
+
+.dark-neutral-container-default {
+  background: rgba(122, 127, 137, 0.2);
+}
+
+.dark-neutral-container-soft {
+  background: rgba(122, 127, 137, 0.1);
+}
+
+.dark-neutral-container-muted {
+  background: rgba(122, 127, 137, 0.05);
+}
+
+.dark-neutral-container-hover {
+  background: rgba(122, 127, 137, 0.3);
+}
+
+.dark-neutral-container-active {
+  background: rgba(122, 127, 137, 0.4);
+}
+
+.dark-neutral-on-container {
+  background: rgba(172, 175, 181, 1);
+}
+
+.dark-success-default {
+  background: rgba(134, 223, 180, 1);
+}
+
+.dark-success-soft {
+  background: rgba(98, 213, 158, 1);
+}
+
+.dark-success-muted {
+  background: rgba(61, 203, 135, 1);
+}
+
+.dark-success-hover {
+  background: rgba(195, 239, 218, 1);
+}
+
+.dark-success-active {
+  background: rgba(231, 249, 240, 1);
+}
+
+.dark-success-on-success {
+  background: rgba(5, 67, 37, 1);
+}
+
+.dark-success-container-default {
+  background: rgba(61, 203, 135, 0.2);
+}
+
+.dark-success-container-soft {
+  background: rgba(61, 203, 135, 0.1);
+}
+
+.dark-success-container-muted {
+  background: rgba(61, 203, 135, 0.05);
+}
+
+.dark-success-container-hover {
+  background: rgba(61, 203, 135, 0.3);
+}
+
+.dark-success-container-active {
+  background: rgba(61, 203, 135, 0.4);
+}
+
+.dark-success-on-container {
+  background: rgba(134, 223, 180, 1);
+}
+
+.dark-warning-default {
+  background: rgba(247, 200, 145, 1);
+}
+
+.dark-warning-soft {
+  background: rgba(244, 184, 112, 1);
+}
+
+.dark-warning-muted {
+  background: rgba(241, 167, 79, 1);
+}
+
+.dark-warning-hover {
+  background: rgba(251, 227, 200, 1);
+}
+
+.dark-warning-active {
+  background: rgba(253, 244, 233, 1);
+}
+
+.dark-warning-on-warning {
+  background: rgba(48, 29, 7, 1);
+}
+
+.dark-warning-container-default {
+  background: rgba(241, 167, 79, 0.2);
+}
+
+.dark-warning-container-soft {
+  background: rgba(241, 167, 79, 0.1);
+}
+
+.dark-warning-container-muted {
+  background: rgba(241, 167, 79, 0.05);
+}
+
+.dark-warning-container-hover {
+  background: rgba(241, 167, 79, 0.3);
+}
+
+.dark-warning-container-active {
+  background: rgba(241, 167, 79, 0.4);
+}
+
+.dark-warning-on-container {
+  background: rgba(247, 200, 145, 1);
+}
+
+.dark-error-default {
+  background: rgba(255, 163, 163, 1);
+}
+
+.dark-error-soft {
+  background: rgba(255, 135, 135, 1);
+}
+
+.dark-error-muted {
+  background: rgba(255, 108, 108, 1);
+}
+
+.dark-error-hover {
+  background: rgba(255, 209, 209, 1);
+}
+
+.dark-error-active {
+  background: rgba(255, 237, 237, 1);
+}
+
+.dark-error-on-error {
+  background: rgba(89, 25, 25, 1);
+}
+
+.dark-error-container-default {
+  background: rgba(255, 108, 108, 0.2);
+}
+
+.dark-error-container-soft {
+  background: rgba(255, 108, 108, 0.1);
+}
+
+.dark-error-container-muted {
+  background: rgba(255, 108, 108, 0.05);
+}
+
+.dark-error-container-hover {
+  background: rgba(255, 108, 108, 0.3);
+}
+
+.dark-error-container-active {
+  background: rgba(255, 108, 108, 0.4);
+}
+
+.dark-error-on-container {
+  background: rgba(255, 163, 163, 1);
+}
+
+.dark-info-default {
+  background: rgba(140, 203, 255, 1);
+}
+
+.dark-info-soft {
+  background: rgba(106, 188, 255, 1);
+}
+
+.dark-info-muted {
+  background: rgba(71, 173, 255, 1);
+}
+
+.dark-info-hover {
+  background: rgba(198, 229, 255, 1);
+}
+
+.dark-info-active {
+  background: rgba(232, 245, 255, 1);
+}
+
+.dark-info-on-info {
+  background: rgba(9, 53, 89, 1);
+}
+
+.dark-info-container-default {
+  background: rgba(71, 173, 255, 0.2);
+}
+
+.dark-info-container-soft {
+  background: rgba(71, 173, 255, 0.1);
+}
+
+.dark-info-container-muted {
+  background: rgba(71, 173, 255, 0.05);
+}
+
+.dark-info-container-hover {
+  background: rgba(71, 173, 255, 0.3);
+}
+
+.dark-info-container-active {
+  background: rgba(71, 173, 255, 0.4);
+}
+
+.dark-info-on-container {
+  background: rgba(140, 203, 255, 1);
+}
+
+.dark-status-01-default {
+  background: rgba(157, 222, 207, 1);
+}
+
+.dark-status-01-soft {
+  background: rgba(128, 211, 192, 1);
+}
+
+.dark-status-01-muted {
+  background: rgba(98, 201, 177, 1);
+}
+
+.dark-status-01-hover {
+  background: rgba(206, 238, 231, 1);
+}
+
+.dark-status-01-active {
+  background: rgba(235, 248, 245, 1);
+}
+
+.dark-status-01-on-status-01 {
+  background: rgba(21, 66, 55, 1);
+}
+
+.dark-status-01-container-default {
+  background: rgba(98, 201, 177, 0.2);
+}
+
+.dark-status-01-container-soft {
+  background: rgba(98, 201, 177, 0.1);
+}
+
+.dark-status-01-container-muted {
+  background: rgba(98, 201, 177, 0.05);
+}
+
+.dark-status-01-container-hover {
+  background: rgba(98, 201, 177, 0.3);
+}
+
+.dark-status-01-container-active {
+  background: rgba(98, 201, 177, 0.4);
+}
+
+.dark-status-01-on-container {
+  background: rgba(157, 222, 207, 1);
+}
+
+.dark-status-02-default {
+  background: rgba(151, 205, 255, 1);
+}
+
+.dark-status-02-soft {
+  background: rgba(120, 189, 255, 1);
+}
+
+.dark-status-02-muted {
+  background: rgba(88, 174, 255, 1);
+}
+
+.dark-status-02-hover {
+  background: rgba(203, 230, 255, 1);
+}
+
+.dark-status-02-active {
+  background: rgba(234, 245, 255, 1);
+}
+
+.dark-status-02-on-status-02 {
+  background: rgba(16, 54, 89, 1);
+}
+
+.dark-status-02-container-default {
+  background: rgba(88, 174, 255, 0.2);
+}
+
+.dark-status-02-container-soft {
+  background: rgba(88, 174, 255, 0.1);
+}
+
+.dark-status-02-container-muted {
+  background: rgba(88, 174, 255, 0.05);
+}
+
+.dark-status-02-container-hover {
+  background: rgba(88, 174, 255, 0.3);
+}
+
+.dark-status-02-container-active {
+  background: rgba(88, 174, 255, 0.4);
+}
+
+.dark-status-02-on-container {
+  background: rgba(151, 205, 255, 1);
+}
+
+.dark-status-03-default {
+  background: rgba(180, 169, 250, 1);
+}
+
+.dark-status-03-soft {
+  background: rgba(158, 143, 249, 1);
+}
+
+.dark-status-03-muted {
+  background: rgba(135, 117, 247, 1);
+}
+
+.dark-status-03-hover {
+  background: rgba(218, 212, 252, 1);
+}
+
+.dark-status-03-active {
+  background: rgba(240, 238, 254, 1);
+}
+
+.dark-status-03-on-status-03 {
+  background: rgba(37, 29, 86, 1);
+}
+
+.dark-status-03-container-default {
+  background: rgba(135, 117, 247, 0.2);
+}
+
+.dark-status-03-container-soft {
+  background: rgba(135, 117, 247, 0.1);
+}
+
+.dark-status-03-container-muted {
+  background: rgba(135, 117, 247, 0.05);
+}
+
+.dark-status-03-container-hover {
+  background: rgba(135, 117, 247, 0.3);
+}
+
+.dark-status-03-container-active {
+  background: rgba(135, 117, 247, 0.4);
+}
+
+.dark-status-03-on-container {
+  background: rgba(180, 169, 250, 1);
+}
+
+.dark-status-04-default {
+  background: rgba(204, 146, 255, 1);
+}
+
+.dark-status-04-soft {
+  background: rgba(189, 113, 255, 1);
+}
+
+.dark-status-04-muted {
+  background: rgba(173, 80, 255, 1);
+}
+
+.dark-status-04-hover {
+  background: rgba(230, 200, 255, 1);
+}
+
+.dark-status-04-active {
+  background: rgba(245, 233, 255, 1);
+}
+
+.dark-status-04-on-status-04 {
+  background: rgba(54, 13, 89, 1);
+}
+
+.dark-status-04-container-default {
+  background: rgba(173, 80, 255, 0.2);
+}
+
+.dark-status-04-container-soft {
+  background: rgba(173, 80, 255, 0.1);
+}
+
+.dark-status-04-container-muted {
+  background: rgba(173, 80, 255, 0.05);
+}
+
+.dark-status-04-container-hover {
+  background: rgba(173, 80, 255, 0.3);
+}
+
+.dark-status-04-container-active {
+  background: rgba(173, 80, 255, 0.4);
+}
+
+.dark-status-04-on-container {
+  background: rgba(204, 146, 255, 1);
+}
+
+.dark-status-05-default {
+  background: rgba(241, 157, 193, 1);
+}
+
+.dark-status-05-soft {
+  background: rgba(237, 127, 174, 1);
+}
+
+.dark-status-05-muted {
+  background: rgba(233, 97, 155, 1);
+}
+
+.dark-status-05-hover {
+  background: rgba(248, 206, 224, 1);
+}
+
+.dark-status-05-active {
+  background: rgba(252, 235, 243, 1);
+}
+
+.dark-status-05-on-status-05 {
+  background: rgba(80, 20, 45, 1);
+}
+
+.dark-status-05-container-default {
+  background: rgba(233, 97, 155, 0.2);
+}
+
+.dark-status-05-container-soft {
+  background: rgba(233, 97, 155, 0.1);
+}
+
+.dark-status-05-container-muted {
+  background: rgba(233, 97, 155, 0.05);
+}
+
+.dark-status-05-container-hover {
+  background: rgba(233, 97, 155, 0.3);
+}
+
+.dark-status-05-container-active {
+  background: rgba(233, 97, 155, 0.4);
+}
+
+.dark-status-05-on-container {
+  background: rgba(241, 157, 193, 1);
+}
+
+.dark-status-06-default {
+  background: rgba(255, 167, 136, 1);
+}
+
+.dark-status-06-soft {
+  background: rgba(255, 141, 101, 1);
+}
+
+.dark-status-06-muted {
+  background: rgba(255, 114, 65, 1);
+}
+
+.dark-status-06-hover {
+  background: rgba(255, 211, 196, 1);
+}
+
+.dark-status-06-active {
+  background: rgba(255, 237, 231, 1);
+}
+
+.dark-status-06-on-status-06 {
+  background: rgba(89, 28, 6, 1);
+}
+
+.dark-status-06-container-default {
+  background: rgba(255, 114, 65, 0.2);
+}
+
+.dark-status-06-container-soft {
+  background: rgba(255, 114, 65, 0.1);
+}
+
+.dark-status-06-container-muted {
+  background: rgba(255, 114, 65, 0.05);
+}
+
+.dark-status-06-container-hover {
+  background: rgba(255, 114, 65, 0.3);
+}
+
+.dark-status-06-container-active {
+  background: rgba(255, 114, 65, 0.4);
+}
+
+.dark-status-06-on-container {
+  background: rgba(255, 167, 136, 1);
+}
+
+.dark-interactive-accent {
+  background: rgba(38, 110, 255, 1);
+}
+
+.dark-interactive-accent-hover {
+  background: rgba(51, 119, 255, 1);
+}
+
+.dark-interactive-accent-active {
+  background: rgba(89, 145, 255, 1);
+}
+
+.dark-interactive-on-accent {
+  background: rgba(255, 255, 255, 1);
+}
+
+.dark-interactive-error-default {
+  background: rgba(255, 99, 99, 1);
+}
+
+.dark-interactive-error-hover {
+  background: rgba(255, 108, 108, 1);
+}
+
+.dark-interactive-error-active {
+  background: rgba(255, 135, 135, 1);
+}
+
+.dark-interactive-error-on-error {
+  background: rgba(255, 255, 255, 1);
+}
+
+.dark-bg-surface1 {
+  background: rgba(42, 45, 50, 1);
+}
+
+.dark-bg-surface2 {
+  background: rgba(52, 55, 62, 1);
+}
+
+.dark-bg-surface3 {
+  background: rgba(58, 62, 70, 1);
+}
+
+.dark-bg-surface4 {
+  background: rgba(68, 72, 81, 1);
+}
+
+.dark-bg-page {
+  background: rgba(31, 33, 37, 1);
+}
+
+.dark-bg-disabled {
+  background: rgba(161, 169, 184, 0.1);
+}
+
+.dark-bg-surface0 {
+  background: rgba(14, 17, 23, 1);
+}
+
+.dark-bg-elevated-xl {
+  background: rgba(58, 62, 70, 1);
+}
+
+.dark-bg-elevated-0 {
+  background: rgba(31, 33, 37, 1);
+}
+
+.dark-bg-elevated-s {
+  background: rgba(42, 45, 50, 1);
+}
+
+.dark-bg-elevated-m {
+  background: rgba(47, 50, 57, 1);
+}
+
+.dark-bg-elevated-l {
+  background: rgba(52, 55, 62, 1);
+}
+
+.dark-static-black {
+  background: rgba(14, 17, 23, 1);
+}
+
+.dark-static-white {
+  background: rgba(255, 255, 255, 1);
+}
+
+.dark-static-success {
+  background: rgba(13, 190, 105, 1);
+}
+
+.dark-static-warning {
+  background: rgba(238, 145, 35, 1);
+}
+
+.dark-static-error {
+  background: rgba(255, 71, 71, 1);
+}
+
+.dark-static-info {
+  background: rgba(25, 152, 255, 1);
+}

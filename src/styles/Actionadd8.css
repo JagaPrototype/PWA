@@ -1,0 +1,21 @@
+
+.symbol-2_21112 {
+        width: 24px;
+height: 24px;
+position: relative;
+      }
+.vector-2_21113 {
+        width: 20px;
+height: 20px;
+background-image: url("/assets/Vector64.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 2px;
+top: 2px;
+      }
+.component-2_21112 {
+        width: fit-content;
+height: fit-content;
+      }
+

@@ -1,0 +1,45 @@
+
+.scroll-container {
+        height: 100%;
+width: 100%;
+overflow: auto;
+      }
+.frame-1458_15960 {
+        width: 316px;
+height: 244px;
+overflow: hidden;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+border-radius: 20px 20px 20px 20px;
+      }
+.frame-content-1458_15960 {
+        display: flex;
+flex-direction: column;
+gap: 38px;
+align-items: flex-start;
+justify-content: flex-start;
+padding: 10px 20px 10px 20px;
+width: 100%;
+position: relative;
+      }
+.paragraph-1458_15961 {
+        font-size: 24px;
+font-family: "Inter-Medium";
+font-weight: 500;
+display: flex;
+flex-direction: column;
+justify-content: center;
+letter-spacing: 0.02500000037252903em;
+line-height: 28px;
+font-feature-settings: "lnum" 1, "tnum" 1;
+width: 259px;
+height: auto;
+position: relative;
+flex-shrink: 0;
+flex-grow: 0;
+      }
+

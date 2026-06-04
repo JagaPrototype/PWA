@@ -1,0 +1,1663 @@
+
+.scroll-container {
+        height: 100%;
+width: 100%;
+overflow: auto;
+      }
+.frame-355_5670 {
+        width: 375px;
+height: 812px;
+overflow: hidden;
+position: relative;
+flex-shrink: 0;
+border-radius: 32px 32px 32px 32px;
+background-color: rgba(241, 243, 249, 1);
+      }
+.frame-355_5671 {
+        width: auto;
+height: auto;
+position: absolute;
+left: 0px;
+top: 0px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+      }
+.frame-355_5672 {
+        width: 375px;
+height: 56px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.rectangle-418_334 {
+        width: 375px;
+height: 56px;
+position: absolute;
+left: 0px;
+top: 0px;
+mix-blend-mode: normal;
+      }
+.vector-418_335 {
+        width: 15.2724609375px;
+height: 10.965667724609375px;
+background-image: url("/assets/Wifi.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 304.0000305175781px;
+top: 22.000028610229492px;
+      }
+.vector-418_339 {
+        width: 17px;
+height: 10.667022705078125px;
+background-image: url("/assets/MobileSignal.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 282px;
+top: 21.99997901916504px;
+      }
+.paragraph-418_344 {
+        font-size: 15px;
+font-family: "SF Pro Text-Semibold";
+font-weight: Semibold;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+letter-spacing: -0.020000003278255463em;
+text-decoration: none;
+width: auto;
+height: auto;
+position: absolute;
+left: 26px;
+top: 19px;
+white-space: pre;
+flex-grow: 0;
+mix-blend-mode: normal;
+      }
+.vector-418_345 {
+        width: 24.328125px;
+height: 11.333343505859375px;
+background-image: url("/assets/Battery.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 324px;
+top: 22px;
+      }
+.frame-418_349 {
+        width: 125px;
+height: 37px;
+overflow: hidden;
+position: absolute;
+left: 125px;
+top: 11px;
+border-radius: 9999px 9999px 9999px 9999px;
+mix-blend-mode: normal;
+      }
+.frame-355_5673 {
+        width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+gap: 8px;
+align-items: flex-start;
+padding: 0px 0px 8px 0px;
+      }
+.frame-355_5674 {
+        width: 375px;
+height: 56px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+mix-blend-mode: normal;
+      }
+.frame-content-355_5674 {
+        display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+padding: 6px 6px 6px 16px;
+width: 100%;
+height: 100%;
+position: relative;
+      }
+.frame-418_36679 {
+        width: 100%;
+height: auto;
+position: relative;
+flex-shrink: 1;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+flex-grow: 1;
+flex-basis: 0;
+background-color: transparent;
+mix-blend-mode: normal;
+      }
+.frame-content-418_36679 {
+        display: flex;
+flex-direction: row;
+gap: 8px;
+align-items: center;
+justify-content: flex-start;
+width: 100%;
+position: relative;
+      }
+.frame-418_36684 {
+        width: 100%;
+height: auto;
+position: relative;
+flex-shrink: 1;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+flex-grow: 1;
+flex-basis: 0;
+mix-blend-mode: normal;
+      }
+.frame-content-418_36684 {
+        display: flex;
+flex-direction: column;
+gap: 2px;
+align-items: flex-start;
+justify-content: flex-start;
+width: 100%;
+position: relative;
+      }
+.paragraph-418_36685 {
+        text-align: left;
+text-decoration: none;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+width: 100%;
+height: 24px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.frame-418_36687 {
+        width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+background-color: transparent;
+mix-blend-mode: normal;
+      }
+.frame-418_36694 {
+        width: 44px;
+height: 44px;
+overflow: hidden;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 12px 12px 12px 12px;
+mix-blend-mode: normal;
+      }
+.frame-content-418_36694 {
+        display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100%;
+position: relative;
+      }
+.vector-418_36695 {
+        width: 24px;
+height: 24px;
+background-image: url("/assets/ActionSearch.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: relative;
+flex-shrink: 0;
+      }
+.frame-355_5675 {
+        width: 375px;
+height: 646px;
+overflow: hidden;
+position: absolute;
+left: 0px;
+top: 122px;
+background-color: rgba(255, 255, 255, 1);
+      }
+.frame-355_5676 {
+        width: 375px;
+height: auto;
+overflow: hidden;
+position: absolute;
+left: 0px;
+top: 0px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+      }
+.frame-content-355_5676 {
+        display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 16px 0px 16px;
+width: 100%;
+position: relative;
+      }
+.frame-411_10369 {
+        width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+      }
+.frame-355_5677 {
+        width: 343px;
+height: 55px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+min-height: 52px;
+mix-blend-mode: normal;
+      }
+.frame-content-355_5677 {
+        display: flex;
+flex-direction: row;
+gap: 12px;
+align-items: center;
+justify-content: flex-start;
+min-height: 52px;
+width: 100%;
+position: relative;
+      }
+.frame-418_35344 {
+        width: auto;
+height: 55px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background-color: transparent;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35344 {
+        display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 4px 0px 4px 0px;
+height: 100%;
+position: relative;
+      }
+.frame-418_35345 {
+        width: 100%;
+height: 100%;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 40px;
+min-width: 40px;
+max-height: 40px;
+max-width: 40px;
+border-radius: 12px 12px 12px 12px;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35345 {
+        display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 40px;
+min-width: 40px;
+max-height: 40px;
+max-width: 40px;
+height: 100%;
+position: relative;
+      }
+.stroke-wrapper-418_35345 {
+        position: relative;
+width: 40px;
+height: 40px;
+display: flex;
+flex-shrink: 0;
+max-width: 40px;
+max-height: 40px;
+      }
+.stroke-418_35345 {
+        position: absolute;
+inset: 0px;
+border-radius: 12px 12px 12px 12px;
+pointer-events: none;
+border-width: 0.6000000238418579px 0.6000000238418579px 0.6000000238418579px 0.6000000238418579px;
+border-style: solid;
+box-sizing: border-box;
+      }
+.vector-418_35346 {
+        width: 17.7412109375px;
+height: 17.72418212890625px;
+background-image: url("/assets/iconbadgecustomslot.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 28.0001220703125px;
+top: 28px;
+      }
+.paragraph-418_35348 {
+        text-align: center;
+text-decoration: none;
+width: 40px;
+height: auto;
+position: relative;
+flex-shrink: 0;
+flex-grow: 0;
+mix-blend-mode: normal;
+      }
+.frame-418_35351 {
+        width: 100%;
+height: auto;
+position: relative;
+flex-shrink: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-grow: 1;
+flex-basis: 0;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35351 {
+        display: flex;
+flex-direction: column;
+gap: 6px;
+align-items: center;
+justify-content: center;
+padding: 8px 0px 8px 0px;
+width: 100%;
+position: relative;
+      }
+.paragraph-418_35352 {
+        text-align: left;
+letter-spacing: 0px;
+text-decoration: none;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+width: 100%;
+height: 16px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.paragraph-418_35353 {
+        text-align: left;
+text-decoration: none;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+width: 100%;
+height: 17px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.frame-418_35354 {
+        width: auto;
+height: 55px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background-color: transparent;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35354 {
+        display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 0px 4px 0px 4px;
+height: 100%;
+position: relative;
+      }
+.vector-418_35355 {
+        width: 24px;
+height: 24px;
+background-image: url("/assets/ActionKebabMenu.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: relative;
+flex-shrink: 0;
+      }
+.frame-355_5678 {
+        width: 343px;
+height: 55px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+min-height: 52px;
+mix-blend-mode: normal;
+      }
+.frame-content-355_5678 {
+        display: flex;
+flex-direction: row;
+gap: 12px;
+align-items: center;
+justify-content: flex-start;
+min-height: 52px;
+width: 100%;
+position: relative;
+      }
+.frame-418_35331 {
+        width: auto;
+height: 55px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background-color: transparent;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35331 {
+        display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 4px 0px 4px 0px;
+height: 100%;
+position: relative;
+      }
+.frame-418_35332 {
+        width: 100%;
+height: 100%;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 40px;
+min-width: 40px;
+max-height: 40px;
+max-width: 40px;
+border-radius: 12px 12px 12px 12px;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35332 {
+        display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 40px;
+min-width: 40px;
+max-height: 40px;
+max-width: 40px;
+height: 100%;
+position: relative;
+      }
+.stroke-wrapper-418_35332 {
+        position: relative;
+width: 40px;
+height: 40px;
+display: flex;
+flex-shrink: 0;
+max-width: 40px;
+max-height: 40px;
+      }
+.stroke-418_35332 {
+        position: absolute;
+inset: 0px;
+border-radius: 12px 12px 12px 12px;
+pointer-events: none;
+border-width: 0.6000000238418579px 0.6000000238418579px 0.6000000238418579px 0.6000000238418579px;
+border-style: solid;
+box-sizing: border-box;
+      }
+.vector-418_35333 {
+        width: 17.7412109375px;
+height: 17.72418212890625px;
+background-image: url("/assets/iconbadgecustomslot.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 28.0001220703125px;
+top: 28px;
+      }
+.paragraph-418_35335 {
+        text-align: center;
+text-decoration: none;
+width: 40px;
+height: auto;
+position: relative;
+flex-shrink: 0;
+flex-grow: 0;
+mix-blend-mode: normal;
+      }
+.frame-418_35338 {
+        width: 100%;
+height: auto;
+position: relative;
+flex-shrink: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-grow: 1;
+flex-basis: 0;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35338 {
+        display: flex;
+flex-direction: column;
+gap: 6px;
+align-items: center;
+justify-content: center;
+padding: 8px 0px 8px 0px;
+width: 100%;
+position: relative;
+      }
+.paragraph-418_35339 {
+        text-align: left;
+letter-spacing: 0px;
+text-decoration: none;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+width: 100%;
+height: 16px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.paragraph-418_35340 {
+        text-align: left;
+text-decoration: none;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+width: 100%;
+height: 17px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.frame-418_35341 {
+        width: auto;
+height: 55px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background-color: transparent;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35341 {
+        display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 0px 4px 0px 4px;
+height: 100%;
+position: relative;
+      }
+.vector-418_35342 {
+        width: 24px;
+height: 24px;
+background-image: url("/assets/ActionKebabMenu.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: relative;
+flex-shrink: 0;
+      }
+.frame-355_5679 {
+        width: 343px;
+height: 55px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+min-height: 52px;
+mix-blend-mode: normal;
+      }
+.frame-content-355_5679 {
+        display: flex;
+flex-direction: row;
+gap: 12px;
+align-items: center;
+justify-content: flex-start;
+min-height: 52px;
+width: 100%;
+position: relative;
+      }
+.frame-418_35318 {
+        width: auto;
+height: 55px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background-color: transparent;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35318 {
+        display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 4px 0px 4px 0px;
+height: 100%;
+position: relative;
+      }
+.frame-418_35319 {
+        width: 100%;
+height: 100%;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 40px;
+min-width: 40px;
+max-height: 40px;
+max-width: 40px;
+border-radius: 12px 12px 12px 12px;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35319 {
+        display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 40px;
+min-width: 40px;
+max-height: 40px;
+max-width: 40px;
+height: 100%;
+position: relative;
+      }
+.stroke-wrapper-418_35319 {
+        position: relative;
+width: 40px;
+height: 40px;
+display: flex;
+flex-shrink: 0;
+max-width: 40px;
+max-height: 40px;
+      }
+.stroke-418_35319 {
+        position: absolute;
+inset: 0px;
+border-radius: 12px 12px 12px 12px;
+pointer-events: none;
+border-width: 0.6000000238418579px 0.6000000238418579px 0.6000000238418579px 0.6000000238418579px;
+border-style: solid;
+box-sizing: border-box;
+      }
+.vector-418_35320 {
+        width: 17.7412109375px;
+height: 17.72418212890625px;
+background-image: url("/assets/iconbadgecustomslot.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 28.0001220703125px;
+top: 28px;
+      }
+.paragraph-418_35322 {
+        text-align: center;
+text-decoration: none;
+width: 40px;
+height: auto;
+position: relative;
+flex-shrink: 0;
+flex-grow: 0;
+mix-blend-mode: normal;
+      }
+.frame-418_35325 {
+        width: 100%;
+height: auto;
+position: relative;
+flex-shrink: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-grow: 1;
+flex-basis: 0;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35325 {
+        display: flex;
+flex-direction: column;
+gap: 6px;
+align-items: center;
+justify-content: center;
+padding: 8px 0px 8px 0px;
+width: 100%;
+position: relative;
+      }
+.paragraph-418_35326 {
+        text-align: left;
+letter-spacing: 0px;
+text-decoration: none;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+width: 100%;
+height: 16px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.paragraph-418_35327 {
+        text-align: left;
+text-decoration: none;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+width: 100%;
+height: 17px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.frame-418_35328 {
+        width: auto;
+height: 55px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background-color: transparent;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35328 {
+        display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 0px 4px 0px 4px;
+height: 100%;
+position: relative;
+      }
+.vector-418_35329 {
+        width: 24px;
+height: 24px;
+background-image: url("/assets/ActionKebabMenu.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: relative;
+flex-shrink: 0;
+      }
+.frame-355_5680 {
+        width: 343px;
+height: 55px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+min-height: 52px;
+mix-blend-mode: normal;
+      }
+.frame-content-355_5680 {
+        display: flex;
+flex-direction: row;
+gap: 12px;
+align-items: center;
+justify-content: flex-start;
+min-height: 52px;
+width: 100%;
+position: relative;
+      }
+.frame-418_35305 {
+        width: auto;
+height: 55px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background-color: transparent;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35305 {
+        display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 4px 0px 4px 0px;
+height: 100%;
+position: relative;
+      }
+.frame-418_35306 {
+        width: 100%;
+height: 100%;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 40px;
+min-width: 40px;
+max-height: 40px;
+max-width: 40px;
+border-radius: 12px 12px 12px 12px;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35306 {
+        display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 40px;
+min-width: 40px;
+max-height: 40px;
+max-width: 40px;
+height: 100%;
+position: relative;
+      }
+.stroke-wrapper-418_35306 {
+        position: relative;
+width: 40px;
+height: 40px;
+display: flex;
+flex-shrink: 0;
+max-width: 40px;
+max-height: 40px;
+      }
+.stroke-418_35306 {
+        position: absolute;
+inset: 0px;
+border-radius: 12px 12px 12px 12px;
+pointer-events: none;
+border-width: 0.6000000238418579px 0.6000000238418579px 0.6000000238418579px 0.6000000238418579px;
+border-style: solid;
+box-sizing: border-box;
+      }
+.vector-418_35307 {
+        width: 17.7412109375px;
+height: 17.72418212890625px;
+background-image: url("/assets/iconbadgecustomslot.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 28.0001220703125px;
+top: 28px;
+      }
+.paragraph-418_35309 {
+        text-align: center;
+text-decoration: none;
+width: 40px;
+height: auto;
+position: relative;
+flex-shrink: 0;
+flex-grow: 0;
+mix-blend-mode: normal;
+      }
+.frame-418_35312 {
+        width: 100%;
+height: auto;
+position: relative;
+flex-shrink: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-grow: 1;
+flex-basis: 0;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35312 {
+        display: flex;
+flex-direction: column;
+gap: 6px;
+align-items: center;
+justify-content: center;
+padding: 8px 0px 8px 0px;
+width: 100%;
+position: relative;
+      }
+.paragraph-418_35313 {
+        text-align: left;
+letter-spacing: 0px;
+text-decoration: none;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+width: 100%;
+height: 16px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.paragraph-418_35314 {
+        text-align: left;
+text-decoration: none;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+width: 100%;
+height: 17px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.frame-418_35315 {
+        width: auto;
+height: 55px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background-color: transparent;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35315 {
+        display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 0px 4px 0px 4px;
+height: 100%;
+position: relative;
+      }
+.vector-418_35316 {
+        width: 24px;
+height: 24px;
+background-image: url("/assets/ActionKebabMenu.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: relative;
+flex-shrink: 0;
+      }
+.frame-355_5681 {
+        width: 343px;
+height: 55px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+min-height: 52px;
+mix-blend-mode: normal;
+      }
+.frame-content-355_5681 {
+        display: flex;
+flex-direction: row;
+gap: 12px;
+align-items: center;
+justify-content: flex-start;
+min-height: 52px;
+width: 100%;
+position: relative;
+      }
+.frame-418_35292 {
+        width: auto;
+height: 55px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background-color: transparent;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35292 {
+        display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 4px 0px 4px 0px;
+height: 100%;
+position: relative;
+      }
+.frame-418_35293 {
+        width: 100%;
+height: 100%;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 40px;
+min-width: 40px;
+max-height: 40px;
+max-width: 40px;
+border-radius: 12px 12px 12px 12px;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35293 {
+        display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 40px;
+min-width: 40px;
+max-height: 40px;
+max-width: 40px;
+height: 100%;
+position: relative;
+      }
+.stroke-wrapper-418_35293 {
+        position: relative;
+width: 40px;
+height: 40px;
+display: flex;
+flex-shrink: 0;
+max-width: 40px;
+max-height: 40px;
+      }
+.stroke-418_35293 {
+        position: absolute;
+inset: 0px;
+border-radius: 12px 12px 12px 12px;
+pointer-events: none;
+border-width: 0.6000000238418579px 0.6000000238418579px 0.6000000238418579px 0.6000000238418579px;
+border-style: solid;
+box-sizing: border-box;
+      }
+.vector-418_35294 {
+        width: 17.7412109375px;
+height: 17.72418212890625px;
+background-image: url("/assets/iconbadgecustomslot.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 28.0001220703125px;
+top: 28px;
+      }
+.paragraph-418_35296 {
+        text-align: center;
+text-decoration: none;
+width: 40px;
+height: auto;
+position: relative;
+flex-shrink: 0;
+flex-grow: 0;
+mix-blend-mode: normal;
+      }
+.frame-418_35299 {
+        width: 100%;
+height: auto;
+position: relative;
+flex-shrink: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-grow: 1;
+flex-basis: 0;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35299 {
+        display: flex;
+flex-direction: column;
+gap: 6px;
+align-items: center;
+justify-content: center;
+padding: 8px 0px 8px 0px;
+width: 100%;
+position: relative;
+      }
+.paragraph-418_35300 {
+        text-align: left;
+letter-spacing: 0px;
+text-decoration: none;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+width: 100%;
+height: 16px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.paragraph-418_35301 {
+        text-align: left;
+text-decoration: none;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+width: 100%;
+height: 17px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.frame-418_35302 {
+        width: auto;
+height: 55px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background-color: transparent;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35302 {
+        display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 0px 4px 0px 4px;
+height: 100%;
+position: relative;
+      }
+.vector-418_35303 {
+        width: 24px;
+height: 24px;
+background-image: url("/assets/ActionKebabMenu.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: relative;
+flex-shrink: 0;
+      }
+.frame-411_10385 {
+        width: 343px;
+height: 56px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+min-height: 52px;
+mix-blend-mode: normal;
+      }
+.frame-content-411_10385 {
+        display: flex;
+flex-direction: row;
+gap: 12px;
+align-items: center;
+justify-content: flex-start;
+min-height: 52px;
+width: 100%;
+position: relative;
+      }
+.frame-418_35279 {
+        width: auto;
+height: 56px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background-color: transparent;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35279 {
+        display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 4px 0px 4px 0px;
+height: 100%;
+position: relative;
+      }
+.frame-418_35280 {
+        width: 100%;
+height: 100%;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 40px;
+min-width: 40px;
+max-height: 40px;
+max-width: 40px;
+border-radius: 12px 12px 12px 12px;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35280 {
+        display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+min-height: 40px;
+min-width: 40px;
+max-height: 40px;
+max-width: 40px;
+height: 100%;
+position: relative;
+      }
+.stroke-wrapper-418_35280 {
+        position: relative;
+width: auto;
+height: 40px;
+display: flex;
+flex-shrink: 0;
+max-width: 40px;
+max-height: 40px;
+      }
+.stroke-418_35280 {
+        position: absolute;
+inset: 0px;
+border-radius: 12px 12px 12px 12px;
+pointer-events: none;
+border-width: 0.6000000238418579px 0.6000000238418579px 0.6000000238418579px 0.6000000238418579px;
+border-style: solid;
+box-sizing: border-box;
+      }
+.paragraph-418_35283 {
+        text-align: center;
+text-decoration: none;
+width: 40px;
+height: auto;
+position: relative;
+flex-shrink: 0;
+flex-grow: 0;
+mix-blend-mode: normal;
+      }
+.frame-418_35286 {
+        width: 100%;
+height: auto;
+position: relative;
+flex-shrink: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-grow: 1;
+flex-basis: 0;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35286 {
+        display: flex;
+flex-direction: column;
+gap: 6px;
+align-items: center;
+justify-content: center;
+padding: 8px 0px 8px 0px;
+width: 100%;
+position: relative;
+      }
+.paragraph-418_35287 {
+        text-align: left;
+letter-spacing: 0px;
+text-decoration: none;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+width: 100%;
+height: 16px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.paragraph-418_35288 {
+        text-align: left;
+text-decoration: none;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+width: 100%;
+height: 18px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.frame-418_35289 {
+        width: auto;
+height: 56px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background-color: transparent;
+mix-blend-mode: normal;
+      }
+.frame-content-418_35289 {
+        display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 0px 4px 0px 4px;
+height: 100%;
+position: relative;
+      }
+.vector-418_35290 {
+        width: 24px;
+height: 24px;
+background-image: url("/assets/ActionKebabMenu.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: relative;
+flex-shrink: 0;
+      }
+.group-411_10353 {
+        width: 343px;
+height: 87px;
+position: relative;
+flex-shrink: 0;
+      }
+.frame-355_5726 {
+        width: 343px;
+height: auto;
+position: absolute;
+left: 0px;
+top: 0px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+      }
+.frame-content-355_5726 {
+        display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 0px 8px 0px;
+width: 100%;
+position: relative;
+      }
+.paragraph-355_5727 {
+        width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.frame-355_5740 {
+        width: 375px;
+height: 86px;
+position: absolute;
+left: 0px;
+top: 726px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+mix-blend-mode: normal;
+      }
+.frame-content-355_5740 {
+        display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+position: relative;
+      }
+.frame-418_29156 {
+        width: 100%;
+height: 100%;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+mix-blend-mode: normal;
+      }
+.frame-content-418_29156 {
+        display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 8px 16px 0px 16px;
+width: 100%;
+position: relative;
+      }
+.stroke-wrapper-418_29156 {
+        position: relative;
+width: 100%;
+height: auto;
+display: flex;
+flex-shrink: 0;
+      }
+.stroke-418_29156 {
+        position: absolute;
+inset: 0px;
+border-radius: 0px 0px 0px 0px;
+pointer-events: none;
+border-width: 0.5px 0px 0px 0px;
+border-style: solid;
+box-sizing: border-box;
+      }
+.frame-418_29157 {
+        width: 114.33334350585938px;
+height: auto;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+mix-blend-mode: normal;
+      }
+.frame-content-418_29157 {
+        display: flex;
+flex-direction: column;
+gap: 4px;
+align-items: center;
+justify-content: flex-start;
+width: 100%;
+position: relative;
+      }
+.frame-418_29158 {
+        width: 28px;
+height: 28px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.vector-418_29159 {
+        width: 24px;
+height: 24px;
+background-image: url("/assets/ActionHomeFill.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 2px;
+top: 2px;
+      }
+.paragraph-418_29161 {
+        text-align: center;
+text-decoration: none;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+width: 100%;
+height: 12px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.frame-418_29162 {
+        width: 100%;
+height: auto;
+position: relative;
+flex-shrink: 1;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+flex-grow: 1;
+flex-basis: 0;
+mix-blend-mode: normal;
+      }
+.frame-content-418_29162 {
+        display: flex;
+flex-direction: column;
+gap: 4px;
+align-items: center;
+justify-content: flex-start;
+width: 100%;
+position: relative;
+      }
+.frame-418_29163 {
+        width: 28px;
+height: 28px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.vector-418_29164 {
+        width: 24px;
+height: 24px;
+background-image: url("/assets/DocumentFolderOpenFill.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 2px;
+top: 2px;
+      }
+.paragraph-418_29166 {
+        text-align: center;
+text-decoration: none;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+width: 100%;
+height: 12px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.frame-418_29167 {
+        width: 114.33331298828125px;
+height: auto;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+mix-blend-mode: normal;
+      }
+.frame-content-418_29167 {
+        display: flex;
+flex-direction: column;
+gap: 4px;
+align-items: center;
+justify-content: flex-start;
+width: 100%;
+position: relative;
+      }
+.frame-418_29168 {
+        width: 28px;
+height: 28px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.vector-418_29169 {
+        width: 24px;
+height: 24px;
+background-image: url("/assets/ActionCatalogFill.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 2px;
+top: 2px;
+      }
+.paragraph-418_29171 {
+        text-align: center;
+text-decoration: none;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+width: 100%;
+height: 12px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.frame-418_29172 {
+        width: 393px;
+height: 34px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+.rectangle-418_29173 {
+        width: 139px;
+height: 5px;
+position: absolute;
+left: 127px;
+top: 21px;
+transform: rotateY(180deg);
+border-radius: 100px 100px 100px 100px;
+mix-blend-mode: normal;
+      }
+

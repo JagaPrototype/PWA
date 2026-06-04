@@ -1,0 +1,59 @@
+
+.symbol-2_80797 {
+        width: 360px;
+height: 150px;
+position: relative;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px 20px 0px 20px;
+      }
+.instance-2_80798 {
+        width: 320px;
+height: 150px;
+      }
+.component-2_80797 {
+        width: fit-content;
+height: fit-content;
+      }
+
+
+.instance-2_80798 .symbol-2_80805  {
+        width: 100%;
+height: 100%;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+gap: 16px;
+justify-content: center;
+align-items: center;
+      }
+.instance-2_80798  .stroke-wrapper-2_80805 {
+        position: relative;
+width: 320px;
+height: 150px;
+display: flex;
+flex-shrink: 0;
+      }
+.instance-2_80798  .stroke-2_80805 {
+        position: absolute;
+inset: 0px;
+border-radius: 0px 0px 0px 0px;
+pointer-events: none;
+border-width: 1px 1px 1px 1px;
+border-style: dashed;
+box-sizing: border-box;
+      }
+.instance-2_80798 .paragraph-2_80806  {
+        font-size: 14px;
+font-family: "Inter-Regular";
+font-weight: Regular;
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }

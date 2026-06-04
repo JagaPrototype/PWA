@@ -1,0 +1,40 @@
+
+.scroll-container {
+        height: 100%;
+width: 100%;
+overflow: auto;
+      }
+.frame-3360_79359 {
+        width: 467px;
+height: 54px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+border-radius: 12px 12px 12px 12px;
+background-color: rgba(255, 255, 255, 1);
+      }
+.frame-content-3360_79359 {
+        display: flex;
+flex-direction: row;
+gap: 10px;
+align-items: flex-start;
+padding: 12px 12px 12px 12px;
+width: 100%;
+position: relative;
+      }
+.paragraph-3360_79360 {
+        font-size: 24px;
+font-family: "Inter-Medium";
+font-weight: 500;
+letter-spacing: 0em;
+line-height: 30px;
+width: 100%;
+height: auto;
+position: relative;
+flex-shrink: 1;
+flex-grow: 1;
+flex-basis: 0;
+      }
+

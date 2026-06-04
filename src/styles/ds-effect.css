@@ -1,0 +1,127 @@
+.shadow-none {
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.shadow-bottom-s {
+  box-shadow: 0px 0px 8px 0px rgba(68, 83, 113, 0.1),0px 2px 4px 0px rgba(68, 83, 113, 0.2);
+}
+
+.shadow-bottom-m {
+  box-shadow: 0px 0px 16px 0px rgba(68, 83, 113, 0.1),0px -4px 8px 0px rgba(68, 83, 113, 0.2);
+}
+
+.shadow-bottom-l {
+  box-shadow: 0px 0px 20px 0px rgba(68, 83, 113, 0.1),0px 12px 20px 0px rgba(68, 83, 113, 0.2);
+}
+
+.shadow-bottom-xl {
+  box-shadow: 0px 0px 32px 0px rgba(68, 83, 113, 0.1),0px 32px 32px 0px rgba(68, 83, 113, 0.2);
+}
+
+.shadow-bottom-controls {
+  box-shadow: 0px 0px 1px 0px rgba(68, 83, 113, 0.4),0px 2px 2px 0px rgba(68, 83, 113, 0.2);
+}
+
+.shadow-bottom-accent-s {
+  box-shadow: 0px 0px 8px 0px rgba(128, 170, 255, 0.1),0px 2px 4px 0px rgba(128, 170, 255, 0.2);
+}
+
+.shadow-bottom-accent-m {
+  box-shadow: 0px 0px 16px 0px rgba(128, 170, 255, 0.1),0px 4px 8px 0px rgba(128, 170, 255, 0.2);
+}
+
+.shadow-bottom-accent-l {
+  box-shadow: 0px 0px 20px 0px rgba(128, 170, 255, 0.1),0px 12px 20px 0px rgba(128, 170, 255, 0.2);
+}
+
+.shadow-bottom-accent-xl {
+  box-shadow: 0px 0px 32px 0px rgba(128, 170, 255, 0.1),0px 32px 32px 0px rgba(128, 170, 255, 0.2);
+}
+
+.shadow-bottom-accent-controls {
+  box-shadow: 0px 0px 1px 0px rgba(128, 170, 255, 0.4),0px 2px 2px 0px rgba(128, 170, 255, 0.2);
+}
+
+.shadow-top-s {
+  box-shadow: 0px 0px 8px 0px rgba(68, 83, 113, 0.1),0px 2px 4px 0px rgba(68, 83, 113, 0.2);
+}
+
+.shadow-top-m {
+  box-shadow: 0px 0px 16px 0px rgba(68, 83, 113, 0.1),0px 4px 8px 0px rgba(68, 83, 113, 0.2);
+}
+
+.shadow-top-l {
+  box-shadow: 0px 0px 20px 0px rgba(68, 83, 113, 0.1),0px 12px 20px 0px rgba(68, 83, 113, 0.2);
+}
+
+.shadow-top-xl {
+  box-shadow: 0px 0px 32px 0px rgba(68, 83, 113, 0.1),0px 32px 32px 0px rgba(68, 83, 113, 0.2);
+}
+
+.shadow-top-controls {
+  box-shadow: 0px 0px 1px 0px rgba(68, 83, 113, 0.4),0px 2px 2px 0px rgba(68, 83, 113, 0.2);
+}
+
+.shadow-dark-none {
+  box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.shadow-dark-bottom-s {
+  box-shadow: 0px 0px 8px 0px rgba(68, 83, 113, 0.1),0px 2px 4px 0px rgba(68, 83, 113, 0.2);
+}
+
+.shadow-dark-bottom-m {
+  box-shadow: 0px 0px 16px 0px rgba(68, 83, 113, 0.1),0px 4px 8px 0px rgba(68, 83, 113, 0.2);
+}
+
+.shadow-dark-bottom-l {
+  box-shadow: 0px 0px 20px 0px rgba(68, 83, 113, 0.1),0px 12px 20px 0px rgba(68, 83, 113, 0.2);
+}
+
+.shadow-dark-bottom-xl {
+  box-shadow: 0px 0px 32px 0px rgba(68, 83, 113, 0.1),0px 32px 32px 0px rgba(68, 83, 113, 0.2);
+}
+
+.shadow-dark-bottom-controls {
+  box-shadow: 0px 0px 1px 0px rgba(68, 83, 113, 0.4),0px 2px 2px 0px rgba(68, 83, 113, 0.2);
+}
+
+.shadow-dark-bottom-accent-s {
+  box-shadow: 0px 0px 8px 0px rgba(128, 170, 255, 0.1),0px 2px 4px 0px rgba(128, 170, 255, 0.2);
+}
+
+.shadow-dark-bottom-accent-m {
+  box-shadow: 0px 0px 16px 0px rgba(128, 170, 255, 0.1),0px 4px 8px 0px rgba(128, 170, 255, 0.2);
+}
+
+.shadow-dark-bottom-accent-l {
+  box-shadow: 0px 0px 20px 0px rgba(128, 170, 255, 0.1),0px 12px 20px 0px rgba(128, 170, 255, 0.2);
+}
+
+.shadow-dark-bottom-accent-xl {
+  box-shadow: 0px 0px 32px 0px rgba(128, 170, 255, 0.1),0px 32px 32px 0px rgba(128, 170, 255, 0.2);
+}
+
+.shadow-dark-bottom-accent-controls {
+  box-shadow: 0px 0px 1px 0px rgba(128, 170, 255, 0.4),0px 2px 2px 0px rgba(128, 170, 255, 0.2);
+}
+
+.shadow-dark-top-s {
+  box-shadow: 0px 0px 8px 0px rgba(68, 83, 113, 0.1),0px -2px 4px 0px rgba(68, 83, 113, 0.2);
+}
+
+.shadow-dark-top-m {
+  box-shadow: 0px 0px 16px 0px rgba(68, 83, 113, 0.1),0px -4px 8px 0px rgba(68, 83, 113, 0.2);
+}
+
+.shadow-dark-top-l {
+  box-shadow: 0px 0px 20px 0px rgba(68, 83, 113, 0.1),0px -12px 20px 0px rgba(68, 83, 113, 0.2);
+}
+
+.shadow-dark-top-xl {
+  box-shadow: 0px 0px 32px 0px rgba(68, 83, 113, 0.1),0px -32px 32px 0px rgba(68, 83, 113, 0.2);
+}
+
+.shadow-dark-top-controls {
+  box-shadow: 0px 0px 1px 0px rgba(68, 83, 113, 0.4),0px -2px 2px 0px rgba(68, 83, 113, 0.2);
+}

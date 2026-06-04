@@ -1,0 +1,122 @@
+
+.symbol-2_27082 {
+        
+      }
+.symbol-2_27083 {
+        width: auto;
+height: auto;
+position: relative;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+background-color: transparent;
+      }
+.instance-2_27084 {
+        display: none;
+width: 44px;
+height: 44px;
+      }
+.instance-2_27085 {
+        display: none;
+width: 44px;
+height: 44px;
+      }
+.instance-2_27086 {
+        width: 44px;
+height: 44px;
+      }
+.symbol-2_27087 {
+        width: auto;
+height: auto;
+position: relative;
+display: flex;
+flex-direction: row;
+gap: 10px;
+justify-content: flex-start;
+align-items: flex-start;
+background-color: transparent;
+      }
+.instance-2_27088 {
+        width: 59px;
+height: 44px;
+      }
+.component-2_27082 {
+        width: fit-content;
+height: fit-content;
+      }
+
+
+.instance-2_27084 .symbol-2_26348  {
+        width: 44px;
+height: 44px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 12px 12px 12px 12px;
+      }
+.instance-2_27085 .symbol-2_26348  {
+        width: 44px;
+height: 44px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 12px 12px 12px 12px;
+      }
+.instance-2_27086 .symbol-2_26348  {
+        width: 44px;
+height: 44px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 12px 12px 12px 12px;
+      }
+.instance-2_27088 .symbol-2_25269  {
+        width: 59px;
+height: 44px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+gap: 6px;
+justify-content: center;
+align-items: center;
+padding: 10px 20px 10px 20px;
+border-radius: 12px 12px 12px 12px;
+      }
+.instance-2_27088 .instance-2_25270  {
+        width: 24px;
+height: 24px;
+      }
+.instance-2_27088 .paragraph-2_25271  {
+        text-align: center;
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.instance-2_27088 .instance-2_25273  {
+        display: none;
+width: 24px;
+height: 24px;
+      }
+.instance-2_27088 .instance-2_25272 .paragraph-2_24617  {
+        text-align: center;
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }

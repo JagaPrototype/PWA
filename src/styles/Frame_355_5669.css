@@ -1,0 +1,118 @@
+
+.scroll-container {
+        height: 100%;
+width: 100%;
+overflow: auto;
+      }
+.frame-355_5669 {
+        width: 344px;
+height: 66px;
+overflow: hidden;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+border-radius: 24px 24px 24px 24px;
+mix-blend-mode: normal;
+      }
+.frame-content-355_5669 {
+        display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+width: 100%;
+position: relative;
+      }
+.frame-404_35371 {
+        width: 344px;
+height: auto;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+min-height: 52px;
+mix-blend-mode: normal;
+      }
+.frame-content-404_35371 {
+        display: flex;
+flex-direction: row;
+gap: 12px;
+align-items: center;
+justify-content: flex-start;
+min-height: 52px;
+padding: 16px 16px 16px 16px;
+width: 100%;
+position: relative;
+      }
+.frame-404_35372 {
+        width: auto;
+height: 34px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+background-color: transparent;
+mix-blend-mode: normal;
+      }
+.frame-content-404_35372 {
+        display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 5px 0px 5px 0px;
+height: 100%;
+position: relative;
+      }
+.vector-404_35373 {
+        width: 24px;
+height: 24px;
+
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: relative;
+flex-shrink: 0;
+      }
+.frame-404_35375 {
+        width: 100%;
+height: auto;
+position: relative;
+flex-shrink: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-grow: 1;
+flex-basis: 0;
+mix-blend-mode: normal;
+      }
+.frame-content-404_35375 {
+        display: flex;
+flex-direction: column;
+gap: 6px;
+align-items: center;
+justify-content: center;
+padding: 8px 0px 8px 0px;
+width: 100%;
+position: relative;
+      }
+.paragraph-404_35376 {
+        text-align: left;
+text-decoration: none;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 1;
+overflow: hidden;
+width: 100%;
+height: 18px;
+position: relative;
+flex-shrink: 0;
+mix-blend-mode: normal;
+      }
+

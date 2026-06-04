@@ -1,0 +1,101 @@
+
+.symbol-2_2254 {
+        width: 393px;
+height: 56px;
+position: relative;
+      }
+.rectangle-2_2255 {
+        width: 393px;
+height: 56px;
+position: absolute;
+left: 0px;
+top: 0px;
+      }
+.vector-2_2256 {
+        width: 15.2734375px;
+height: 10.9658203125px;
+background-image: url("/assets/Wifi.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 321.6958312988281px;
+top: 17.33110809326172px;
+      }
+.vector-2_2260 {
+        width: 17px;
+height: 10.6669921875px;
+background-image: url("/assets/MobileSignal.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 299.66796875px;
+top: 17.6669921875px;
+      }
+.paragraph-2_2265 {
+        font-size: 15px;
+font-family: "SF Pro Text-Semibold";
+font-weight: Semibold;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+letter-spacing: -0.020000003278255463em;
+width: auto;
+height: auto;
+position: absolute;
+left: 26px;
+top: 14px;
+white-space: pre;
+flex-grow: 0;
+      }
+.group-2_2266 {
+        width: 24.32803726196289px;
+height: 11.333333015441895px;
+position: absolute;
+left: 342px;
+top: 17.3330078125px;
+      }
+.vector-2_2267 {
+        width: 22px;
+height: 11.3330078125px;
+background-image: url("/assets/Rectangle0.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 0px;
+top: 0px;
+      }
+.vector-2_2268 {
+        width: 1.328125px;
+height: 4px;
+background-image: url("/assets/CombinedShape.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 23px;
+top: 3.66650390625px;
+      }
+.vector-2_2269 {
+        width: 18px;
+height: 7.3330078125px;
+background-image: url("/assets/Rectangle.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 2px;
+top: 2px;
+      }
+.frame-2_2270 {
+        width: 125px;
+height: 37px;
+overflow: hidden;
+position: absolute;
+left: 134px;
+top: 11px;
+border-radius: 9999px 9999px 9999px 9999px;
+      }
+.component-2_2254 {
+        width: fit-content;
+height: fit-content;
+      }
+

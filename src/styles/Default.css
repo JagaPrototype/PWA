@@ -1,0 +1,39 @@
+
+.symbol-2_23121 {
+        width: 32px;
+height: 32px;
+position: relative;
+display: flex;
+flex-direction: row;
+gap: 10px;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 6px 6px 6px 6px;
+border-radius: 100px 100px 100px 100px;
+      }
+.instance-2_23122 {
+        width: 20px;
+height: 20px;
+      }
+.component-2_23121 {
+        width: fit-content;
+height: fit-content;
+      }
+
+
+.instance-2_23122 .symbol-2_23135  {
+        width: 20px;
+height: 20px;
+position: relative;
+flex-shrink: 0;
+      }
+.instance-2_23122 .vector-2_23136  {
+        width: 16.282230377197266px;
+height: 16.282230377197266px;
+background-image: url("/assets/Vector25.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 2.433346748352051px;
+top: 1.2842988967895508px;
+      }

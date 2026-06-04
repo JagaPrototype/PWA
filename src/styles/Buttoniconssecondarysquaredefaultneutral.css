@@ -1,0 +1,43 @@
+
+.symbol-355_5743 {
+        width: 32px;
+height: 32px;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 10px 10px 10px 10px;
+      }
+.instance-355_5744 {
+        width: 20px;
+height: 20px;
+      }
+.component-355_5743 {
+        width: fit-content;
+height: fit-content;
+      }
+
+
+.instance-355_5744 .symbol-2_23129 .symbol-355_5745 {
+        width: 20px;
+height: 20px;
+position: relative;
+flex-shrink: 0;
+      }
+.instance-355_5744 .vector-2_23130  {
+        width: 16.79998779296875px;
+height: 16.79998779296875px;
+
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 1.600341796875px;
+top: 1.599853515625px;
+      }
+.instance-355_5744 .symbol-2_23129  {
+        width: 20px;
+height: 20px;
+position: relative;
+flex-shrink: 0;
+      }

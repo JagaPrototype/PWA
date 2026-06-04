@@ -1,0 +1,196 @@
+
+.symbol-2_80799 {
+        width: 360px;
+height: 340px;
+position: relative;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+      }
+.instance-2_80800 {
+        width: 360px;
+height: 20px;
+      }
+.frame-2_80801 {
+        width: 100%;
+height: auto;
+overflow: hidden;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+border-radius: 24px 24px 0px 0px;
+background-color: rgba(255, 255, 255, 1);
+      }
+.frame-content-2_80801 {
+        display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+width: 100%;
+position: relative;
+      }
+.instance-2_80802 {
+        width: 360px;
+height: 72px;
+      }
+.instance-2_80803 {
+        width: 360px;
+height: 150px;
+      }
+.instance-2_80804 {
+        width: 360px;
+height: 98px;
+      }
+.component-2_80799 {
+        width: fit-content;
+height: fit-content;
+      }
+
+
+.instance-2_80800 .symbol-2_80564  {
+        width: 360px;
+height: 20px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 8px 0px 8px 0px;
+      }
+.instance-2_80800 .rectangle-2_80565  {
+        width: 32px;
+height: 4px;
+position: relative;
+flex-shrink: 0;
+border-radius: 100px 100px 100px 100px;
+background-color: rgba(255, 255, 255, 0.4000000059604645);
+      }
+.instance-2_80803 .symbol-2_80797 .symbol-2_79792 {
+        width: 360px;
+height: 150px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px 20px 0px 20px;
+      }
+.instance-2_80803 .instance-2_80798 .paragraph-2_80806  {
+        font-size: 14px;
+font-family: "Inter-Regular";
+font-weight: Regular;
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.instance-2_80803 .symbol-2_80797  {
+        width: 360px;
+height: 150px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px 20px 0px 20px;
+      }
+.instance-2_80804 .symbol-2_80784  {
+        width: 360px;
+height: 98px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+gap: 6px;
+justify-content: center;
+align-items: flex-start;
+padding: 20px 20px 34px 20px;
+      }
+.instance-2_80804 .instance-2_80787  {
+        width: 360px;
+height: 34px;
+      }
+.instance-2_80804 .symbol-2_80784 .symbol-2_80795 {
+        width: 360px;
+height: 98px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+gap: 6px;
+justify-content: center;
+align-items: flex-start;
+padding: 20px 20px 34px 20px;
+      }
+.instance-2_80802 .symbol-2_80777  {
+        width: 360px;
+height: 72px;
+position: relative;
+flex-shrink: 0;
+display: flex;
+flex-direction: row;
+gap: 16px;
+justify-content: flex-start;
+align-items: center;
+padding: 20px 20px 20px 20px;
+      }
+.instance-2_80802 .paragraph-2_80778  {
+        display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+height: 20px;
+position: relative;
+flex-shrink: 1;
+flex-grow: 1;
+flex-basis: 0;
+      }
+.instance-2_80804 .instance-2_80786 .paragraph-2_25181  {
+        text-align: center;
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.instance-2_80804 .instance-2_80785 .paragraph-2_25246  {
+        text-align: center;
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.instance-2_80802 .instance-2_80779 .instance-2_26665  {
+        width: 20px;
+height: 20px;
+      }
+.instance-2_80804 .instance-2_80786 .instance-2_25182 .paragraph-2_24623  {
+        text-align: center;
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }
+.instance-2_80804 .instance-2_80785 .instance-2_25247 .paragraph-2_24625  {
+        text-align: center;
+width: auto;
+height: auto;
+position: relative;
+flex-shrink: 0;
+white-space: pre;
+flex-grow: 0;
+      }

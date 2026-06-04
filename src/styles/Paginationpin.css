@@ -1,0 +1,80 @@
+
+.symbol-2_24018 {
+        
+      }
+.symbol-2_24019 {
+        width: 30px;
+height: 8px;
+position: relative;
+display: flex;
+flex-direction: row;
+gap: 10px;
+justify-content: flex-start;
+align-items: flex-start;
+min-width: 30px;
+border-radius: 99px 99px 99px 99px;
+      }
+.frame-2_24020 {
+        width: 100%;
+height: 8px;
+overflow: hidden;
+position: relative;
+flex-shrink: 1;
+flex-grow: 1;
+flex-basis: 0;
+align-self: stretch;
+border-radius: 99px 99px 99px 99px;
+      }
+.symbol-2_24021 {
+        width: 8px;
+height: 8px;
+position: relative;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+min-height: 8px;
+min-width: 8px;
+max-height: 8px;
+max-width: 8px;
+      }
+.frame-2_24022 {
+        width: 100%;
+height: 8px;
+overflow: hidden;
+position: relative;
+flex-shrink: 1;
+flex-grow: 1;
+flex-basis: 0;
+align-self: stretch;
+border-radius: 99px 99px 99px 99px;
+      }
+.symbol-2_24023 {
+        width: 4px;
+height: 4px;
+position: relative;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+min-height: 4px;
+min-width: 4px;
+max-height: 4px;
+max-width: 4px;
+      }
+.frame-2_24024 {
+        width: 100%;
+height: 4px;
+overflow: hidden;
+position: relative;
+flex-shrink: 1;
+flex-grow: 1;
+flex-basis: 0;
+align-self: stretch;
+border-radius: 99px 99px 99px 99px;
+      }
+.component-2_24018 {
+        width: fit-content;
+height: fit-content;
+      }
+

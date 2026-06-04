@@ -1,0 +1,561 @@
+/* ── TaskCard ────────────────────────────────────────────────────────────── */
+
+.tc {
+  width: 100%; height: 100%;
+  display: flex; flex-direction: column;
+  background: rgba(241, 243, 249, 1); /* surface2 — фон за секциями */
+  font-family: 'Inter', -apple-system, sans-serif;
+  overflow: hidden;
+}
+
+/* ── Header ──────────────────────────────────────────────────────────────── */
+
+.tc-header {
+  flex-shrink: 0;
+  display: flex; align-items: center; gap: 10px;
+  padding: 12px 16px;
+  background: rgba(255,255,255,1);
+  border-bottom: 1px solid rgba(236,238,241,1);
+}
+
+.tc-back { background: transparent; border: none; cursor: pointer; padding: 0; display: flex; }
+.tc-back-icon { width: 24px; height: 24px; filter: brightness(0) saturate(100%); }
+
+.tc-project-avatar {
+  width: 32px; height: 32px; border-radius: 8px;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.tc-project-avatar img { width: 18px; height: 18px; filter: brightness(0) invert(1); }
+
+.tc-header-info { flex: 1; min-width: 0; }
+.tc-header-id {
+  font-size: 15px; line-height: 17px; font-weight: 600; letter-spacing: -0.2px;
+  color: rgba(14,17,23,1);
+}
+.tc-header-project {
+  font-size: 12px; line-height: 13px; font-weight: 400; letter-spacing: -0.1px;
+  color: rgba(133,143,163,1);
+}
+
+.tc-kebab { background: transparent; border: none; cursor: pointer; padding: 4px; display: flex; }
+.tc-kebab-icon { width: 20px; height: 20px; filter: brightness(0) saturate(100%) invert(65%) sepia(8%) saturate(350%) hue-rotate(195deg) brightness(90%); }
+
+/* ── Tabs bar ────────────────────────────────────────────────────────────── */
+
+.tc-tabs {
+  flex-shrink: 0;
+  display: flex; align-items: stretch;
+  background: rgba(255,255,255,1);
+  border-bottom: 1px solid rgba(236,238,241,1);
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: none;
+  overscroll-behavior-x: contain;
+}
+.tc-tabs::-webkit-scrollbar { display: none; }
+
+.tc-tab {
+  flex: 0 0 auto;
+  display: flex; flex-direction: row; justify-content: flex-start; align-items: center;
+  gap: 8px;                          /* DevMode: gap 8px */
+  height: 44px;                      /* DevMode: height 44px */
+  padding: 0 12px;                   /* DevMode: padding 0 12px */
+  background: transparent; border: none; border-bottom: 2px solid transparent;
+  cursor: pointer; white-space: nowrap;
+  font-size: 13px; line-height: 16px; font-weight: 400; letter-spacing: -0.2px;
+  color: rgba(133,143,163,1);
+}
+.tc-tab img { width: 14px; height: 14px; filter: brightness(0) saturate(100%) invert(65%) sepia(8%) saturate(350%) hue-rotate(195deg) brightness(90%); }
+.tc-tab--active {
+  border-bottom-color: rgba(0,85,255,1);
+  color: rgba(0,85,255,1); font-weight: 500;
+}
+.tc-tab--active img { filter: brightness(0) saturate(100%) invert(20%) sepia(90%) saturate(3000%) hue-rotate(210deg) brightness(110%); }
+
+/* ── Content scroll area ─────────────────────────────────────────────────── */
+
+.tc-content {
+  flex: 1; min-height: 0; overflow-y: auto; scrollbar-width: none;
+}
+.tc-content::-webkit-scrollbar { display: none; }
+
+/* ── White card section ──────────────────────────────────────────────────── */
+
+.tc-card {
+  background: rgba(255,255,255,1);
+  margin-bottom: 8px;
+  padding: 16px;
+  border-radius: 0;
+}
+.tc-card:first-child { margin-top: 0; }
+
+/* Блок названия/чипсов: surface2, 8px bottom padding */
+.tc-card--header {
+  background: rgba(241, 243, 249, 1);  /* DevMode: light/bg/surface2 */
+  padding: 16px 16px 8px 16px;
+}
+
+/* Блок описания: surface1, radius 24px, padding 20px 16px, gap 12px */
+.tc-card--description {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 24px;
+  padding: 20px 16px;
+  margin: 0 16px 8px;                    /* floating card — отступы по бокам */
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Кнопка «Подробнее» */
+.tc-more-btn {
+  width: 100%;
+  height: 36px;                          /* DevMode: height 36px */
+  border-radius: 10px;                   /* DevMode */
+  background: rgba(0, 85, 255, 0.1);    /* DevMode: light-accent-container-default */
+  border: none; cursor: pointer;
+  font-size: 14px; line-height: 16px; font-weight: 500; letter-spacing: -0.2px;
+  color: rgba(0, 85, 255, 1);           /* accent */
+  padding: 8px 16px;                     /* DevMode */
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+}
+
+/* ── Info tab ────────────────────────────────────────────────────────────── */
+
+.tc-task-name {
+  font-size: 22px; line-height: 28px; font-weight: 600; letter-spacing: -0.5px;
+  color: rgba(14,17,23,1); margin-bottom: 12px;
+}
+
+/* Status chips row */
+.tc-chips-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+
+.tc-chip-status {
+  height: 36px;                        /* DevMode: height 36px */
+  padding: 0 8px;                      /* DevMode: padding 8px */
+  border: none; cursor: pointer;
+  font-size: 14px; line-height: 16px; font-weight: 500; letter-spacing: -0.2px;
+  display: flex; align-items: center; gap: 6px;
+}
+
+/* «В разработке» — accent-soft, solid, radius 10px */
+.tc-chip-status--primary {
+  background: rgba(51, 119, 255, 1);  /* DevMode: light-accent-soft */
+  color: rgba(255, 255, 255, 1);
+  border-radius: 10px;                 /* DevMode: border-radius 10px */
+}
+
+/* «В процессе» — status-02-container (прозрачный синий), pill */
+.tc-chip-status--secondary {
+  background: rgba(47, 154, 255, 0.1); /* DevMode: light-status-02-container-default */
+  color: rgba(47, 154, 255, 1);        /* status-02 текст */
+  border-radius: 9999px;               /* DevMode: border-radius 9999px */
+}
+
+/* Assignees + priority row */
+.tc-meta-row { display: flex; align-items: center; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+
+/* Чипс исполнителей — DevMode: neutral-container-default, radius 10px, padding 8px 10px, h 36px */
+.tc-assignees-chip {
+  display: flex; flex-direction: row; align-items: center;
+  gap: 4px;
+  height: 36px;
+  padding: 8px 10px;
+  border-radius: 10px;                          /* DevMode */
+  background: rgba(68, 83, 113, 0.1);           /* DevMode: light-neutral-container-default */
+  border: none; cursor: default;
+}
+
+/* Аватар внутри чипса — DevMode: 24×24, radius 9999px, border 0.6px */
+.tc-avatars { display: flex; align-items: center; }
+.tc-avatar-img {
+  width: 24px; height: 24px;                   /* DevMode: 24×24 */
+  border-radius: 9999px;
+  border: 0.6px solid rgba(68, 83, 113, 0.05); /* DevMode: neutral/container-soft */
+  object-fit: cover;
+  margin-left: -4px;
+}
+.tc-avatar-img:first-child { margin-left: 0; }
+
+/* «+99» — DevMode: 24×24, fg-muted bg, radius 9999px */
+.tc-avatar-more {
+  width: 24px; height: 24px;                      /* DevMode: 24×24 */
+  border-radius: 9999px;
+  border: 0.6px solid rgba(68, 83, 113, 0.05);
+  background: rgba(133, 143, 163, 1);              /* DevMode: fg-muted */
+  margin-left: -4px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 9px; font-weight: 500; color: rgba(255,255,255,1);
+}
+.tc-priority-chip {
+  display: flex; flex-direction: row; justify-content: flex-start; align-items: center;
+  gap: 6px;
+  height: 36px;                          /* DevMode: height 36px */
+  padding: 8px 10px;                     /* DevMode */
+  border-radius: 10px;                   /* DevMode */
+  background: rgba(255, 71, 71, 0.1);   /* DevMode: light-error-container-default */
+  color: rgba(255, 71, 71, 1);           /* error */
+  border: none;
+  font-size: 13px; font-weight: 500; letter-spacing: -0.2px;
+}
+.tc-priority-icon { width: 16px; height: 16px; }
+
+/* Description */
+.tc-section-title {
+  font-size: 15px; line-height: 17px; font-weight: 600; letter-spacing: -0.2px;
+  color: rgba(14,17,23,1); margin: 0;
+}
+.tc-description {
+  font-size: 14px; line-height: 20px; font-weight: 400; letter-spacing: -0.2px;
+  color: rgba(68,83,113,1); margin: 0;
+}
+/* .tc-more-btn — определён выше в tc-card--description блоке */
+
+/* Секция «Общее» / «Важное» — floating card */
+.tc-card--section {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 24px;
+  padding: 16px 16px 20px 16px;
+  margin: 0 16px 8px;                    /* floating card — отступы по бокам */
+  display: flex; flex-direction: column;
+  gap: 12px;
+}
+.tc-card--section-last {
+  margin-bottom: 16px;
+}
+
+/* Заголовок секции */
+.tc-section-header {
+  display: flex; align-items: center; justify-content: space-between;
+  background: transparent; border: none; width: 100%; padding: 0; cursor: default;
+}
+.tc-section-header-left { display: flex; align-items: center; gap: 6px; }
+
+/* Кнопка сворачивания: 32×32, radius 999px, surface3 */
+.tc-collapse-btn {
+  width: 32px; height: 32px;
+  border-radius: 999px;                   /* DevMode */
+  background: rgba(232, 235, 244, 1);     /* DevMode: light-bg-surface3 */
+  border: none; cursor: pointer;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  padding: 0;
+}
+.tc-collapse-btn img {
+  width: 16px; height: 16px;
+  filter: brightness(0) saturate(100%) invert(65%) sepia(8%) saturate(350%) hue-rotate(195deg) brightness(90%);
+  transition: transform 0.2s;
+}
+.tc-collapse-btn--open img { transform: rotate(180deg); }
+
+/* Группа поля: лейбл сверху + рамка снизу */
+.tc-field-group {
+  display: flex; flex-direction: column; gap: 4px;
+}
+
+/* Лейбл поля — DevMode: 12px, fg-muted, weight 400, ls -0.1px = mobile/caption-l */
+.tc-field-group-label {
+  font-size: 12px; line-height: 13px; font-weight: 400; letter-spacing: -0.1px;
+  color: rgba(133, 143, 163, 1);          /* fg-muted */
+}
+
+/* Рамка поля — DevMode: h 44px, padding 0 12px, border 1px, radius 12px */
+.tc-field-box {
+  min-height: 44px;                        /* DevMode */
+  padding: 0 12px;                         /* DevMode */
+  gap: 8px;                                /* DevMode */
+  border: 1px solid rgba(68, 83, 113, 0.1); /* DevMode: light/neutral/container-default */
+  border-radius: 12px;                     /* DevMode */
+  display: flex; flex-direction: row; align-items: center;
+  flex-wrap: wrap;
+  background: rgba(255, 255, 255, 1);
+}
+
+/* Текстовое значение внутри поля */
+.tc-field-box-text {
+  font-size: 14px; line-height: 17px; font-weight: 400; letter-spacing: -0.2px;
+  color: rgba(14, 17, 23, 1);
+}
+.tc-field-box-link {
+  font-size: 14px; line-height: 17px; font-weight: 400; letter-spacing: -0.2px;
+  color: rgba(0, 85, 255, 1);
+  flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.tc-field-box-hint {
+  font-size: 14px; line-height: 17px; color: rgba(133, 143, 163, 1);
+}
+
+/* Теги в поле «Метка» */
+.tc-field-box--tags {
+  min-height: auto;
+  padding: 8px 12px;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.tc-tag {
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+/* Стек аватаров (Наблюдатели, Автор) */
+.tc-avatar-stack { display: flex; align-items: center; }
+.tc-stack-img {
+  width: 24px; height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1.5px solid rgba(255,255,255,1);
+}
+.tc-stack-more {
+  width: 24px; height: 24px;
+  border-radius: 50%;
+  background: rgba(133,143,163,1);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 9px; font-weight: 500; color: #fff;
+  border: 1.5px solid rgba(255,255,255,1);
+}
+
+/* Иконка-обёртка для поля «Родитель» */
+.tc-parent-icon-wrap {
+  width: 20px; height: 20px;
+  border-radius: 6px;
+  background: #2EAA6E;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+
+/* Чекбокс */
+.tc-checkbox {
+  width: 18px; height: 18px;
+  border-radius: 4px;
+  border: 1.5px solid rgba(161,169,184,1);
+  flex-shrink: 0;
+}
+
+/* Бейдж спринта */
+.tc-sprint-badge {
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: rgba(13,190,105,0.12);
+  color: rgba(13,190,105,1);
+  font-size: 11px; font-weight: 500;
+  flex-shrink: 0;
+}
+
+/* Chevron в секциях связей */
+.tc-section-chevron { width: 16px; height: 16px; transition: transform 0.2s; filter: brightness(0) saturate(100%) invert(65%) sepia(8%) saturate(350%) hue-rotate(195deg) brightness(90%); }
+.tc-section-chevron--open { transform: rotate(180deg); }
+
+/* Устаревшие стили (не удаляем — обратная совместимость) */
+.tc-field-row { display: flex; align-items: center; gap: 8px; padding: 10px 0; border-bottom: 1px solid rgba(236,238,241,1); }
+.tc-field-row:last-child { border-bottom: none; }
+.tc-field-label { font-size: 13px; line-height: 16px; color: rgba(133,143,163,1); width: 120px; flex-shrink: 0; }
+.tc-field-value { font-size: 13px; line-height: 16px; color: rgba(14,17,23,1); flex: 1; }
+
+/* ── Attachments tab ─────────────────────────────────────────────────────── */
+
+.tc-content--padded { padding: 8px 0; }
+
+.tc-date-label {
+  text-align: center; padding: 12px 0 8px;
+  font-size: 12px; line-height: 13px; color: rgba(133,143,163,1);
+}
+
+.tc-attach-cards {
+  display: flex; flex-direction: column;
+  gap: 8px; padding: 0 16px; margin-bottom: 4px;
+}
+
+.tc-file-card {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 16px;
+  background: rgba(255,255,255,1);
+  border-radius: 12px;
+  border: none; cursor: pointer;
+  width: 100%; text-align: left;
+  -webkit-tap-highlight-color: transparent;
+}
+.tc-file-card-icon {
+  width: 24px; height: 24px; flex-shrink: 0;
+  filter: brightness(0) saturate(100%) invert(20%) sepia(90%) saturate(3000%) hue-rotate(210deg) brightness(110%);
+}
+.tc-file-card-info { flex: 1; min-width: 0; }
+.tc-file-name { font-size: 14px; line-height: 16px; font-weight: 500; color: rgba(14,17,23,1); }
+.tc-file-size { font-size: 12px; line-height: 13px; color: rgba(133,143,163,1); margin-top: 2px; }
+
+/* ── Comments tab ────────────────────────────────────────────────────────── */
+
+.tc-comments-list { padding: 16px 16px 8px; display: flex; flex-direction: column; gap: 12px; }
+.tc-comment-date { text-align: center; font-size: 12px; color: rgba(133,143,163,1); margin: 4px 0; }
+
+/* Others' messages (left) */
+.tc-msg-group { display: flex; gap: 8px; align-items: flex-end; margin-bottom: 2px; }
+/* DevMode: Avatar 24×24, border-radius: 9999px */
+.tc-msg-avatar { width: 24px; height: 24px; border-radius: 9999px; object-fit: cover; flex-shrink: 0; }
+.tc-msg-avatar-spacer { width: 24px; flex-shrink: 0; }
+.tc-msg-body { max-width: 75%; display: flex; flex-direction: column; gap: 2px; }
+.tc-msg-name { font-size: 14px; line-height: 20px; font-weight: 400; color: rgba(68,83,113,1); margin-bottom: 2px; }
+/* DevMode: Bubble — white bg, border-radius: 12px, padding: 10px */
+.tc-msg-bubble {
+  background: rgba(255,255,255,1);
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 14px; line-height: 20px; color: rgba(14,17,23,1);
+}
+/* DevMode: time — font-size: 12px, color: fg-muted, text-align: right */
+.tc-msg-time { font-size: 12px; line-height: 13px; color: rgba(133,143,163,1); margin-top: 2px; }
+
+/* Own messages (right) */
+.tc-msg-group--own { flex-direction: row-reverse; }
+.tc-msg-bubble--own { background: rgba(0,85,255,1); border-radius: 12px; color: rgba(255,255,255,1); }
+.tc-msg-time--own { text-align: right; }
+
+/* Input bar */
+.tc-input-bar {
+  flex-shrink: 0; display: flex; align-items: center; gap: 8px;
+  padding: 8px 16px 16px;
+  background: rgba(255,255,255,1);
+  border-top: 1px solid rgba(236,238,241,1);
+}
+.tc-input-attach { background: transparent; border: none; cursor: pointer; padding: 4px; display: flex; }
+.tc-input-attach img { width: 24px; height: 24px; filter: brightness(0) saturate(100%) invert(65%) sepia(8%) saturate(350%) hue-rotate(195deg) brightness(90%); }
+/* DevMode: input wrapper — border 1px solid rgba(226,228,241,1), border-radius: 16px, bg white, padding: 4px */
+.tc-input-wrap {
+  flex: 1; display: flex; align-items: center; gap: 4px;
+  padding: 4px;
+  border: 1px solid rgba(226,228,241,1);
+  border-radius: 16px;
+  background: rgba(255,255,255,1);
+  min-height: 46px;
+}
+.tc-input-field {
+  flex: 1; background: transparent; border: none;
+  padding: 4px 8px;
+  font-size: 15px; line-height: 17px; letter-spacing: -0.2px;
+  color: rgba(14,17,23,1);
+  font-family: inherit; resize: none; outline: none; max-height: 80px;
+}
+/* DevMode: send button — 36×36, border-radius: 10px, bg rgba(16,51,128,0.1) */
+.tc-input-send {
+  width: 36px; height: 36px; border-radius: 10px;
+  background: rgba(16,51,128,0.1); border: none; cursor: pointer;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.tc-input-send img { width: 18px; height: 18px; filter: brightness(0) saturate(100%) invert(20%) sepia(90%) saturate(3000%) hue-rotate(210deg) brightness(110%); }
+
+/* ── Relations tab ───────────────────────────────────────────────────────── */
+
+/* DevMode: секция — floating card, border-radius: 24px, padding: 16px 12px, gap: 16px */
+.tc-rel-section {
+  background: rgba(255,255,255,1);
+  border-radius: 24px;
+  margin: 0 16px 8px;
+  padding: 16px 12px;
+  display: flex; flex-direction: column;
+  gap: 16px;
+}
+
+/* DevMode: подложка — surface2, radius: 10px, padding: 4px, gap: 4px */
+.tc-rel-tasks-wrap {
+  display: flex; flex-direction: column;
+  gap: 4px;
+  padding: 4px;
+  border-radius: 10px;
+  background: rgba(241,243,249,1);
+}
+
+/* Sub-label внутри подгруппы («Блокирует», «Заблокировано», «Влияет на») */
+/* DevMode: font-size: 15px, font-weight: 500, color: neutral-soft rgba(105,117,142,1) */
+.tc-rel-sublabel {
+  font-size: 15px; line-height: 17px; font-weight: 500;
+  color: rgba(105,117,142,1);
+  padding: 0 4px;
+}
+.tc-rel-header {
+  display: flex; align-items: center; justify-content: space-between;
+  cursor: pointer; background: transparent; border: none; width: 100%;
+  padding: 0;
+}
+.tc-rel-header-left { display: flex; align-items: center; gap: 8px; }
+.tc-rel-title { font-size: 15px; font-weight: 600; letter-spacing: -0.2px; color: rgba(14,17,23,1); }
+.tc-rel-badge {
+  font-size: 11px; font-weight: 500; padding: 2px 7px; border-radius: 999px;
+  background: rgba(232,235,244,1); color: rgba(68,83,113,1);
+}
+/* subtitle — всегда под хедером, без padding (секция сама даёт padding) */
+.tc-rel-subtitle { font-size: 12px; color: rgba(133,143,163,1); margin-top: -8px; }
+.tc-rel-icon { width: 18px; height: 18px; filter: brightness(0) saturate(100%) invert(65%) sepia(8%) saturate(350%) hue-rotate(195deg) brightness(90%); }
+
+/* DevMode: задача внутри секции — карточка, border-radius: 12px, padding: 8px 10px, gap: 4px */
+.tc-rel-row {
+  display: flex; flex-direction: column; gap: 4px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  cursor: pointer; background: rgba(255,255,255,1); border: none; width: 100%; text-align: left;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: 0px 0px 1px 0px rgba(68,83,113,0.2);
+}
+.tc-rel-task-name { font-size: 14px; line-height: 17px; color: rgba(14,17,23,1); text-align: left; }
+.tc-rel-task-meta { display: flex; align-items: center; gap: 6px; }
+.tc-rel-task-id { font-size: 12px; color: rgba(133,143,163,1); flex: 1; }
+
+/* Аватар проекта в строке связей */
+.tc-rel-project-avatar {
+  width: 16px; height: 16px; border-radius: 4px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 10px; font-weight: 500; color: #fff;
+}
+
+/* Аватары исполнителей в строке связей */
+.tc-rel-assignees { display: flex; align-items: center; }
+.tc-rel-assignee-img {
+  width: 20px; height: 20px; border-radius: 50%; object-fit: cover;
+  border: 1px solid rgba(255,255,255,0.8);
+}
+
+/* Чип статуса в строке связей */
+.tc-rel-status-chip {
+  font-size: 11px; font-weight: 500; padding: 2px 8px;
+  border-radius: 999px; flex-shrink: 0;
+  background: rgba(47,154,255,0.12); color: rgba(47,154,255,1);
+}
+
+/* Preview-текст свёрнутой секции (Общее/Важное) */
+.tc-section-preview {
+  font-size: 12px; line-height: 16px; font-weight: 400; letter-spacing: -0.1px;
+  color: rgba(133,143,163,1);
+  margin: 0;
+}
+
+/* Подгруппа в «Связанных задачах» */
+.tc-rel-subgroup {
+  display: flex; align-items: center; gap: 8px;
+  padding: 12px 16px;
+  border-top: 1px solid rgba(236,238,241,1);
+  background: transparent; border: none; width: 100%; text-align: left; cursor: pointer;
+  border-top-color: rgba(236,238,241,1); border-top-style: solid; border-top-width: 1px;
+  -webkit-tap-highlight-color: transparent;
+}
+.tc-rel-subgroup-label {
+  font-size: 14px; line-height: 17px; font-weight: 500;
+  color: rgba(14,17,23,1);
+}
+.tc-rel-subgroup-chevron {
+  width: 16px; height: 16px; margin-left: auto;
+  filter: brightness(0) saturate(100%) invert(65%) sepia(8%) saturate(350%) hue-rotate(195deg) brightness(90%);
+  transition: transform 0.2s;
+}
+
+/* ── History tab ─────────────────────────────────────────────────────────── */
+
+.tc-history-item { display: flex; gap: 12px; padding: 12px 16px; background: rgba(255,255,255,1); border-bottom: 1px solid rgba(236,238,241,1); }
+.tc-history-avatar { width: 32px; height: 32px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+.tc-history-body { flex: 1; }
+.tc-history-header { display: flex; justify-content: space-between; margin-bottom: 4px; }
+.tc-history-user { font-size: 13px; font-weight: 500; color: rgba(14,17,23,1); }
+.tc-history-time { font-size: 12px; color: rgba(133,143,163,1); }
+.tc-history-text { font-size: 13px; line-height: 18px; color: rgba(68,83,113,1); }
+.tc-history-action { font-size: 12px; color: rgba(133,143,163,1); margin-top: 2px; }

@@ -1,0 +1,129 @@
+
+.scroll-container {
+        height: 100%;
+width: 100%;
+overflow: auto;
+      }
+.frame-2_1707 {
+        width: 375px;
+height: 812px;
+overflow: hidden;
+position: relative;
+flex-shrink: 0;
+border-radius: 32px 32px 32px 32px;
+      }
+.frame-2_1708 {
+        width: 375px;
+height: 722px;
+position: absolute;
+left: 0px;
+top: 56px;
+border-radius: 40px 40px 40px 40px;
+      }
+.vector-2_1709 {
+        width: 64px;
+height: 64px;
+background-image: url("/assets/yaga.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 156px;
+top: 318px;
+      }
+.frame-2_1710 {
+        width: 375px;
+height: 56px;
+position: absolute;
+left: 0px;
+top: 0px;
+mix-blend-mode: normal;
+      }
+.rectangle-418_4374 {
+        width: 375px;
+height: 56px;
+position: absolute;
+left: 0px;
+top: 0px;
+mix-blend-mode: normal;
+      }
+.vector-418_4375 {
+        width: 15.27239990234375px;
+height: 10.965576171875px;
+background-image: url("/assets/Wifi.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 303.69635009765625px;
+top: 17.331010818481445px;
+      }
+.vector-418_4379 {
+        width: 17px;
+height: 10.666656494140625px;
+background-image: url("/assets/MobileSignal.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 281.66796875px;
+top: 17.67068862915039px;
+      }
+.paragraph-418_4384 {
+        font-size: 15px;
+font-family: "SF Pro Text-Semibold";
+font-weight: Semibold;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+letter-spacing: -0.020000003278255463em;
+text-decoration: none;
+width: auto;
+height: auto;
+position: absolute;
+left: 26px;
+top: 14px;
+white-space: pre;
+flex-grow: 0;
+mix-blend-mode: normal;
+      }
+.vector-418_4385 {
+        width: 24.32806396484375px;
+height: 11.333343505859375px;
+background-image: url("/assets/Battery.png");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+left: 324px;
+top: 17.3330078125px;
+      }
+.frame-418_4389 {
+        width: 125px;
+height: 37px;
+overflow: hidden;
+position: absolute;
+left: 125px;
+top: 11px;
+border-radius: 9999px 9999px 9999px 9999px;
+mix-blend-mode: normal;
+      }
+.instance-2_1711 {
+        width: 375px;
+height: 34px;
+      }
+
+
+.instance-2_1711 .symbol-2_2248  {
+        width: 375px;
+height: 34px;
+position: absolute;
+left: 0px;
+top: 778px;
+      }
+.instance-2_1711 .rectangle-2_2249  {
+        width: 139px;
+height: 5px;
+position: absolute;
+left: 257px;
+top: 21px;
+transform: rotateY(180deg);
+border-radius: 100px 100px 100px 100px;
+      }

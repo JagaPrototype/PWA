@@ -1,0 +1,487 @@
+.web-display-l {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: 0px;
+}
+
+.web-display-l-strong {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: 0px;
+}
+
+.web-display-m {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 44px;
+  letter-spacing: 0px;
+}
+
+.web-display-m-strong {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 44px;
+  letter-spacing: 0px;
+}
+
+.web-display-s {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0px;
+}
+
+.web-display-s-strong {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0px;
+}
+
+.web-heading-h1 {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+
+.web-heading-h2 {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.web-heading-h3 {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+.web-heading-h4 {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+.web-heading-h5 {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+.web-body-l {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+
+.web-body-l-strong {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+
+.web-body-m {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.web-body-m-strong {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.web-body-m-dense {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+.web-body-s {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+.web-body-s-strong {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+.web-body-italic-l {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+
+.web-body-italic-l-strong {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+
+.web-body-italic-m {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.web-body-italic-m-strong {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.web-body-italic-s {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+.web-body-italic-s-strong {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+.web-body-mono-l {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+
+.web-body-mono-l-strong {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+
+.web-body-mono-m {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.web-body-mono-m-strong {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.web-body-mono-s {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+.web-body-mono-s-strong {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+.web-body-mono-xs {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0px;
+}
+
+.web-body-mono-xs-strong {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0px;
+}
+
+.web-description-l {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0px;
+}
+
+.web-description-l-strong {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0px;
+}
+
+.web-description-s {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.4px;
+}
+
+.web-description-s-strong {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.4px;
+}
+
+.web-code-l {
+  font-family: 'Hack';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+
+.web-code-l-strong {
+  font-family: 'Hack';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+
+.web-code-m {
+  font-family: 'Hack';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.web-code-m-strong {
+  font-family: 'Hack';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+}
+
+.web-code-s {
+  font-family: 'Hack';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+.web-code-s-strong {
+  font-family: 'Hack';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+
+.mobile-H1 {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: -0.8px;
+}
+
+.mobile-H2 {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: -0.5px;
+}
+
+.mobile-H3 {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+}
+
+.mobile-H4 {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.3px;
+}
+
+.mobile-H5 {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+}
+
+.mobile-body-l {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+}
+
+.mobile-body-l-strong {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: -0.3px;
+}
+
+.mobile-body-m {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: -0.2px;
+}
+
+.mobile-body-m-strong {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: -0.2px;
+}
+
+.mobile-description-l {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.2px;
+}
+
+.mobile-description-l-strong {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.2px;
+}
+
+.mobile-description-m {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.2px;
+}
+
+.mobile-description-m-strong {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.2px;
+}
+
+.mobile-caption-l {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: -0.1px;
+}
+
+.mobile-caption-l-strong {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: -0.1px;
+}
+
+.mobile-caption-m {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: -0.1px;
+}
+
+.mobile-caption-m-strong {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: -0.1px;
+}
+
+.mobile-caption-s {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
+  letter-spacing: -0.1px;
+}
+
+.mobile-caption-s-strong {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 11px;
+  letter-spacing: -0.1px;
+}

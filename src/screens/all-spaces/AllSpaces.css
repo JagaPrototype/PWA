@@ -1,0 +1,258 @@
+/* ── AllSpaces Screen ────────────────────────────────────────────────────── */
+
+.asp {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 1);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* ── Header ──────────────────────────────────────────────────────────────── */
+
+.asp-header {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 16px 12px;
+}
+
+/* mobile-H2 */
+.asp-title {
+  font-size: 26px;
+  line-height: 31px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: rgba(14, 17, 23, 1);
+}
+
+.asp-search-btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.asp-search-icon {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) saturate(100%);
+}
+
+/* ── List ────────────────────────────────────────────────────────────────── */
+
+.asp-list {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  scrollbar-width: none;
+  position: relative;
+}
+.asp-list::-webkit-scrollbar { display: none; }
+
+/* ── Section label ───────────────────────────────────────────────────────── */
+
+.asp-section-label {
+  padding: 8px 16px 4px;
+  /* mobile-caption-l */
+  font-size: 12px;
+  line-height: 13px;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  color: rgba(133, 143, 163, 1); /* fg-muted */
+}
+
+/* ── Space row ───────────────────────────────────────────────────────────── */
+
+.asp-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 16px;
+  border: none;
+  background: transparent;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+}
+
+.asp-row--active {
+  background: rgba(105, 82, 245, 0.08); /* accent container мягкий */
+}
+
+/* squircle avatar */
+.asp-avatar {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* mobile-H3: 22px/600/-0.5px */
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  user-select: none;
+}
+
+.asp-avatar-icon {
+  width: 28px;
+  height: 28px;
+  display: block;
+  filter: brightness(0) invert(1);
+}
+
+.asp-star {
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+  width: 20px;
+  height: 20px;
+}
+
+/* space info */
+.asp-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+/* mobile-caption-l */
+.asp-code {
+  font-size: 12px;
+  line-height: 13px;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  color: rgba(133, 143, 163, 1);
+}
+
+/* mobile-body-m */
+.asp-name {
+  font-size: 15px;
+  line-height: 17px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  color: rgba(14, 17, 23, 1);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* kebab button */
+.asp-kebab-btn {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.asp-kebab-icon {
+  width: 20px;
+  height: 20px;
+  /* fg-muted */
+  filter: brightness(0) saturate(100%) invert(65%) sepia(8%)
+          saturate(350%) hue-rotate(195deg) brightness(90%);
+}
+
+/* ── Kebab popup ─────────────────────────────────────────────────────────── */
+
+.asp-popup {
+  margin: 0 16px 4px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 12px;
+  /* shadow-bottom-m */
+  box-shadow: 0px 0px 16px 0px rgba(68, 83, 113, 0.1),
+              0px 4px 8px 0px rgba(68, 83, 113, 0.2);
+  overflow: hidden;
+}
+
+.asp-popup-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 16px;
+  border: none;
+  background: transparent;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.asp-popup-icon {
+  width: 20px;
+  height: 20px;
+  /* fg-default */
+  filter: brightness(0) saturate(100%);
+}
+
+/* mobile-body-m */
+.asp-popup-label {
+  font-size: 15px;
+  line-height: 17px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  color: rgba(14, 17, 23, 1);
+}
+
+/* ── TabBar ──────────────────────────────────────────────────────────────── */
+
+.asp-tabbar {
+  flex-shrink: 0;
+  height: 83px;
+  display: flex;
+  align-items: flex-start;
+  background: rgba(255, 255, 255, 1);
+  border-top: 1px solid rgba(236, 238, 241, 1);
+  padding-top: 10px;
+  box-shadow: 0px 0px 1px 0px rgba(68, 83, 113, 0.4),
+              0px -2px 2px 0px rgba(68, 83, 113, 0.2);
+}
+
+.asp-tab {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.asp-tab-icon { width: 28px; height: 28px; display: block; }
+.asp-tab-icon--active   { filter: brightness(0) saturate(100%); }
+.asp-tab-icon--inactive {
+  filter: brightness(0) saturate(100%) invert(65%) sepia(8%)
+          saturate(350%) hue-rotate(195deg) brightness(90%);
+}
+.asp-tab-label          { font-size: 11px; line-height: 12px; font-weight: 500; letter-spacing: -0.1px; color: rgba(14,17,23,1); }
+.asp-tab-label--inactive { color: rgba(133, 143, 163, 1); }
