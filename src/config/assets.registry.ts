@@ -17,25 +17,22 @@
 
 // ─── Аватары пользователей ────────────────────────────────────────────────────
 
+const B = import.meta.env.BASE_URL;
+
 export const AVATARS = {
-  /** Аватар текущего пользователя в шапке Home */
-  currentUser: "/assets/avatar-me.png",
-
-  /** Реальные фотографии исполнителей (из фотки.zip) */
-  photo1: "/assets/photo-1.png",
-  photo2: "/assets/photo-2.png",
-  photo3: "/assets/photo-3.png",
-
-  /** Дополнительные аватары для hardcoded данных */
-  user0: "/assets/Avatar0.png",
-  user1: "/assets/Avatar1.png",
-  user2: "/assets/Avatar2.png",
-  user3: "/assets/Avatar3.png",
-  user4: "/assets/Avatar4.png",
-  user5: "/assets/Avatar5.png",
-  user6: "/assets/Avatar6.png",
-  user7: "/assets/Avatar7.png",
-  user8: "/assets/Avatar8.png",
+  currentUser: `${B}assets/avatar-me.png`,
+  photo1: `${B}assets/photo-1.png`,
+  photo2: `${B}assets/photo-2.png`,
+  photo3: `${B}assets/photo-3.png`,
+  user0: `${B}assets/Avatar0.png`,
+  user1: `${B}assets/Avatar1.png`,
+  user2: `${B}assets/Avatar2.png`,
+  user3: `${B}assets/Avatar3.png`,
+  user4: `${B}assets/Avatar4.png`,
+  user5: `${B}assets/Avatar5.png`,
+  user6: `${B}assets/Avatar6.png`,
+  user7: `${B}assets/Avatar7.png`,
+  user8: `${B}assets/Avatar8.png`,
 } as const;
 
 // ─── Логотип ──────────────────────────────────────────────────────────────────

@@ -12,7 +12,7 @@
  * - если нужной иконки нет — сообщить, не придумывать замену
  */
 
-const BASE = "/icons/sova";
+const BASE = `${import.meta.env.BASE_URL}icons/sova`;
 const i = (name: string) => `${BASE}/${name}.svg` as const;
 
 export const ICONS = {

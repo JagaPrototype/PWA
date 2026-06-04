@@ -6,7 +6,7 @@ import { AVATARS } from "../../config/assets.registry";
 
 // ─── Hardcoded data ───────────────────────────────────────────────────────────
 
-const STAR_ORANGE = "/assets/star-badge-orange.svg";
+const STAR_ORANGE = `${import.meta.env.BASE_URL}assets/star-badge-orange.svg`;
 
 const SPACES = [
   { id: "crm",      letter: "C",  color: "#2EAA6E", code: "CRMBTCPT", name: "CRM B2C: проблемы",              starred: true,  iconSrc: null },

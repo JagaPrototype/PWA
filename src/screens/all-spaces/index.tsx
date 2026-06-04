@@ -66,7 +66,7 @@ export default function AllSpacesScreen({ dispatch }: ScreenProps) {
             : sp.letter
           }
           {sp.starred && (
-            <img className="asp-star" src="/assets/star-badge-orange.svg" alt="" />
+            <img className="asp-star" src={`${import.meta.env.BASE_URL}assets/star-badge-orange.svg`} alt="" />
           )}
         </div>
 
