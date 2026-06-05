@@ -9,6 +9,8 @@
   overflow: hidden;
   background: var(--ds-surface1);
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  padding-bottom: 83px;
+  box-sizing: border-box;
 }
 
 /* ── Header ──────────────────────────────────────────────────────────────── */

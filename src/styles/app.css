@@ -28,6 +28,48 @@
   opacity: 0;
 }
 
+/* ─── Shared TabBar (персистентный, не ремаунтится) ──────────────────────── */
+
+.shared-tabbar {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 83px;
+  display: flex;
+  align-items: flex-start;
+  background: rgba(255,255,255,1);
+  border-top: 1px solid rgba(236,238,241,1);
+  padding-top: 10px;
+  z-index: 100;
+  font-family: 'Inter', -apple-system, sans-serif;
+}
+
+.shared-tab {
+  flex: 1;
+  display: flex; flex-direction: column;
+  align-items: center; gap: 4px;
+  background: transparent; border: none; cursor: pointer; padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.shared-tab-icon { width: 24px; height: 24px; display: block; }
+.shared-tab-icon--active  { filter: brightness(0) saturate(100%); }
+.shared-tab-icon--inactive {
+  filter: brightness(0) saturate(100%) invert(65%) sepia(8%)
+          saturate(350%) hue-rotate(195deg) brightness(90%);
+}
+
+.shared-tab-label {
+  font-size: 11px; line-height: 12px; font-weight: 500;
+  letter-spacing: -0.1px; color: rgba(14,17,23,1);
+}
+.shared-tab-label--inactive { color: rgba(133,143,163,1); }
+
+/* ─── Экраны с TabBar получают отступ снизу ──────────────────────────────── */
+.screen-with-tabbar {
+  padding-bottom: 83px;
+  box-sizing: border-box;
+}
+
 /* ─── Loading fallback ────────────────────────────────────────────────────── */
 
 .screen-loader {

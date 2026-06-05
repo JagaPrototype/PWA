@@ -8,6 +8,8 @@
   overflow: hidden;
   background: rgba(255, 255, 255, 1);
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  padding-bottom: 83px;
+  box-sizing: border-box;
 }
 
 /* ── Header ──────────────────────────────────────────────────────────────── */

@@ -33,6 +33,9 @@
   overflow: hidden;
   background: linear-gradient(128deg, rgba(181,215,254,0.45) 0%, rgba(238,244,253,0.45) 100%);
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  /* TabBar (83px) вынесен в App.tsx */
+  padding-bottom: 83px;
+  box-sizing: border-box;
 }
 
 /* ── Header (gradient zone) ─────────────────────────────────────────────── */

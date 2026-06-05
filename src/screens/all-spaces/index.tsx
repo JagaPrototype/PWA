@@ -135,21 +135,7 @@ export default function AllSpacesScreen({ dispatch }: ScreenProps) {
         )}
       </div>
 
-      {/* ── TabBar ── */}
-      <div className="asp-tabbar">
-        <button className="asp-tab" onClick={() => dispatch({ type: "tab_switch", to: "home" })}>
-          <img className="asp-tab-icon asp-tab-icon--inactive" src={ICONS.actionHomeFill} alt="" />
-          <span className="asp-tab-label asp-tab-label--inactive">Главная</span>
-        </button>
-        <button className="asp-tab" onClick={() => dispatch({ type: "tab_switch", to: "all-tasks" })}>
-          <img className="asp-tab-icon asp-tab-icon--inactive" src={ICONS.documentFolderOpenFill} alt="" />
-          <span className="asp-tab-label asp-tab-label--inactive">Задачи</span>
-        </button>
-        <button className="asp-tab" onClick={() => dispatch({ type: "tab_switch", to: "all-spaces" })}>
-          <img className="asp-tab-icon asp-tab-icon--active" src={ICONS.actionCatalogFill} alt="" />
-          <span className="asp-tab-label">Пространства</span>
-        </button>
-      </div>
+      {/* TabBar вынесен в App.tsx */}
 
     </div>
   );

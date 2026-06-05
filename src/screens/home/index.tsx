@@ -39,6 +39,14 @@ const RECENT_TASKS = [
     priority: ICONS.priorityNormalFill,
   },
   {
+    id: "ARCH-1042",
+    name: "Проектирование отказоустойчивой event-driven архитектуры",
+    status: "Беклог",
+    statusColor: null,
+    project: { letter: "A", color: "#5C8FF5" },
+    priority: ICONS.priorityNormalFill,
+  },
+  {
     id: "ARCH-1033",
     name: "Service Mesh внедрение и миграция модуля отчетности для авторизация на ABAC",
     status: "В работе",
@@ -221,32 +229,7 @@ export default function HomeScreen({ dispatch }: ScreenProps) {
 
       </div>
 
-      {/* ── TabBar ──────────────────────────────────────────────────────── */}
-      <div className="hs-tabbar">
-        <button
-          className="hs-tab"
-          onClick={() => dispatch({ type: "tab_switch", to: "home" })}
-        >
-          <img className="hs-tab-icon hs-tab-icon--active"   src={ICONS.actionHomeFill}        alt="" />
-          <span className="hs-tab-label">Главная</span>
-        </button>
-
-        <button
-          className="hs-tab"
-          onClick={() => dispatch({ type: "tab_switch", to: "all-tasks" })}
-        >
-          <img className="hs-tab-icon hs-tab-icon--inactive" src={ICONS.documentFolderOpenFill} alt="" />
-          <span className="hs-tab-label hs-tab-label--inactive">Задачи</span>
-        </button>
-
-        <button
-          className="hs-tab"
-          onClick={() => dispatch({ type: "tab_switch", to: "all-spaces" })}
-        >
-          <img className="hs-tab-icon hs-tab-icon--inactive" src={ICONS.actionCatalogFill}     alt="" />
-          <span className="hs-tab-label hs-tab-label--inactive">Пространства</span>
-        </button>
-      </div>
+      {/* TabBar вынесен в App.tsx */}
 
     </div>
   );

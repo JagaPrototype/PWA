@@ -2,6 +2,7 @@ import { Suspense, lazy, useEffect, useRef, useState } from "react";
 import { AppRouter, useRouter } from "./router/AppRouter";
 import { SCREENS } from "./config/screens.config";
 import type { ScreenId } from "./router/types";
+import TabBar from "./components/TabBar";
 import "./styles/global.css";
 import "./styles/tokens.css";
 import "./styles/app.css";
@@ -43,6 +44,9 @@ function ScreenRenderer() {
           <Screen dispatch={dispatch} activeTab={activeTab} />
         </Suspense>
       </div>
+
+      {/* Персистентный TabBar — не ремаунтится при переключении табов */}
+      <TabBar />
 
       {/* Dev-only: reference PNG overlay for visual comparison */}
       {CompareOverlay && (

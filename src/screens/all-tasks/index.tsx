@@ -168,21 +168,7 @@ export default function AllTasksScreen({ dispatch }: ScreenProps) {
         })}
       </div>
 
-      {/* ── TabBar ── */}
-      <div className="at-tabbar">
-        <button className="at-tab" onClick={() => dispatch({ type: "tab_switch", to: "home" })}>
-          <img className="at-tab-icon at-tab-icon--inactive" src={ICONS.actionHomeFill} alt="" />
-          <span className="at-tab-label at-tab-label--inactive">Главная</span>
-        </button>
-        <button className="at-tab" onClick={() => dispatch({ type: "tab_switch", to: "all-tasks" })}>
-          <img className="at-tab-icon at-tab-icon--active" src={ICONS.documentFolderOpenFill} alt="" />
-          <span className="at-tab-label">Задачи</span>
-        </button>
-        <button className="at-tab" onClick={() => dispatch({ type: "tab_switch", to: "all-spaces" })}>
-          <img className="at-tab-icon at-tab-icon--inactive" src={ICONS.actionCatalogFill} alt="" />
-          <span className="at-tab-label at-tab-label--inactive">Пространства</span>
-        </button>
-      </div>
+      {/* TabBar вынесен в App.tsx */}
 
     </div>
   );
