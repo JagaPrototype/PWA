@@ -1,0 +1,80 @@
+/* ── Priority Select ──────────────────────────────────────────────────────── */
+
+.ps-screen {
+  width: 100%; height: 100%;
+  display: flex; flex-direction: column;
+  background: rgba(255, 255, 255, 1);
+  font-family: 'Inter', -apple-system, sans-serif;
+}
+
+/* Header */
+.ps-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 16px 20px;
+  flex-shrink: 0;
+}
+
+.ps-title {
+  font-size: 17px; line-height: 22px; font-weight: 600; letter-spacing: -0.3px;
+  color: rgba(14, 17, 23, 1);
+}
+
+.ps-close {
+  width: 32px; height: 32px;
+  display: flex; align-items: center; justify-content: center;
+  background: transparent; border: none; cursor: pointer; padding: 0;
+}
+.ps-close img {
+  width: 20px; height: 20px;
+  filter: brightness(0) saturate(100%) invert(65%) sepia(8%) saturate(350%) hue-rotate(195deg) brightness(90%);
+}
+
+/* List */
+.ps-list {
+  display: flex; flex-direction: column;
+  padding: 8px 20px;
+  gap: 12px;
+}
+
+.ps-row {
+  display: flex; align-items: center; justify-content: space-between;
+  background: transparent; border: none; cursor: pointer;
+  padding: 0; width: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Chip */
+.ps-chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 6px 12px;
+  border-radius: 10px;
+}
+
+.ps-chip-icon {
+  width: 18px; height: 18px; flex-shrink: 0;
+}
+
+.ps-chip-label {
+  font-size: 14px; line-height: 17px; font-weight: 500; letter-spacing: -0.2px;
+  color: rgba(14, 17, 23, 1);
+}
+
+/* Radio */
+.ps-radio {
+  width: 22px; height: 22px;
+  border-radius: 999px;
+  border: 2px solid rgba(200, 205, 215, 1);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+
+.ps-radio--selected {
+  border-color: rgba(0, 85, 255, 1);
+  background: rgba(0, 85, 255, 1);
+}
+
+.ps-radio-dot {
+  width: 8px; height: 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 1);
+}

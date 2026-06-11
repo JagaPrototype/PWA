@@ -19,7 +19,8 @@ export type ScreenId =
   | "search-sort"
   | "tasks-filters"
   | "tasks-sort"
-  | "spaces";
+  | "spaces"
+  | "priority-select";
 
 // ─── Navigation actions ───────────────────────────────────────────────────────
 
@@ -69,4 +70,5 @@ export const MODAL_SCREENS: ScreenId[] = [
   "tasks-filters",
   "tasks-sort",
   "spaces",
+  "priority-select",
 ];

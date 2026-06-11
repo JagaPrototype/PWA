@@ -286,10 +286,10 @@ export default function TaskCardScreen({ dispatch }: ScreenProps) {
                   <div className="tc-avatar-more">+99</div>
                 </div>
               </div>
-              <div className="tc-priority-chip">
+              <button className="tc-priority-chip" onClick={() => dispatch({ type: "modal", to: "priority-select" })}>
                 <img className="tc-priority-icon" src={ICONS.priorityVeryHighFill} alt="" />
                 {TASK.priority}
-              </div>
+              </button>
             </div>
           </div>
 
