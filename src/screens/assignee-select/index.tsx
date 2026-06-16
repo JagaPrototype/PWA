@@ -8,7 +8,7 @@ const ALL_USERS = [
   { id: "1", name: "Ирина Александровна Крылова",         role: "Дизайнер",                          avatar: AVATARS.photo1 },
   { id: "2", name: "Максимиллиан Святославович ...",      role: "Аналитик",                          avatar: AVATARS.photo2 },
   { id: "3", name: "Анна Иванова",                        role: "Аналитик",                          avatar: AVATARS.photo3 },
-  { id: "4", name: "Валерий Карп",                        role: "Администратор, Руководитель проекта", avatar: AVATARS.user2  },
+  { id: "4", name: "Валерий Карп",                        role: "Администратор, Руководитель проекта", avatar: AVATARS.photo3 },
 ] as const;
 
 type UserId = typeof ALL_USERS[number]["id"];
