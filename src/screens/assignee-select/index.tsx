@@ -89,7 +89,7 @@ export default function AssigneeSelectScreen({ dispatch }: ScreenProps) {
                     <img
                       src={ICONS.navCheck}
                       alt=""
-                      style={{ width: 12, height: 9, filter: "brightness(0) invert(1)" }}
+                      style={{ width: 16, height: 16, filter: "brightness(0) invert(1)" }}
                     />
                   )}
                 </span>
