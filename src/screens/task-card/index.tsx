@@ -267,7 +267,7 @@ export default function TaskCardScreen({ dispatch }: ScreenProps) {
             <h1 className="tc-task-name">{TASK.name}</h1>
 
             <div className="tc-chips-row">
-              <button className="tc-chip-status tc-chip-status--primary">{TASK.status}</button>
+              <button className="tc-chip-status tc-chip-status--primary" onClick={() => dispatch({ type: "modal", to: "status-select" })}>{TASK.status}</button>
               <button className="tc-chip-status tc-chip-status--secondary">
                 <img
                   src={ICONS.navRepeat20} alt=""
@@ -278,14 +278,14 @@ export default function TaskCardScreen({ dispatch }: ScreenProps) {
             </div>
 
             <div className="tc-meta-row">
-              <div className="tc-assignees-chip">
+              <button className="tc-assignees-chip" onClick={() => dispatch({ type: "modal", to: "assignee-select" })}>
                 <div className="tc-avatars">
                   {[AVATARS.photo1, AVATARS.photo2, AVATARS.photo3].map((a, i) => (
                     <img key={i} className="tc-avatar-img" src={a} alt="" />
                   ))}
                   <div className="tc-avatar-more">+99</div>
                 </div>
-              </div>
+              </button>
               <button className="tc-priority-chip" onClick={() => dispatch({ type: "modal", to: "priority-select" })}>
                 <img className="tc-priority-icon" src={ICONS.priorityVeryHighFill} alt="" />
                 {TASK.priority}

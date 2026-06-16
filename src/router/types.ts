@@ -20,7 +20,9 @@ export type ScreenId =
   | "tasks-filters"
   | "tasks-sort"
   | "spaces"
-  | "priority-select";
+  | "priority-select"
+  | "status-select"
+  | "assignee-select";
 
 // ─── Navigation actions ───────────────────────────────────────────────────────
 
@@ -71,4 +73,6 @@ export const MODAL_SCREENS: ScreenId[] = [
   "tasks-sort",
   "spaces",
   "priority-select",
+  "status-select",
+  "assignee-select",
 ];

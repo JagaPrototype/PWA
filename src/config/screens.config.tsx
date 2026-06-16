@@ -49,5 +49,7 @@ export const SCREENS: Record<ScreenId, ScreenComponent> = {
   "tasks-filters":  lazy(() => import("../screens/tasks-filters")),
   "tasks-sort":     lazy(() => import("../screens/tasks-sort")),
   spaces:            placeholder("Пространства (kebab)"),
-  "priority-select": lazy(() => import("../screens/priority-select")),
+  "priority-select":  lazy(() => import("../screens/priority-select")),
+  "status-select":    lazy(() => import("../screens/status-select")),
+  "assignee-select":  lazy(() => import("../screens/assignee-select")),
 };
