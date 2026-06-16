@@ -101,6 +101,7 @@
 /* Блок описания: surface1, radius 24px, padding 20px 16px, gap 12px */
 .tc-card--description {
   background: rgba(255, 255, 255, 1);
+  border-radius: 24px;
   padding: 20px 16px;
   margin: 0 0 8px;
   display: flex;
@@ -215,6 +216,7 @@
 /* Секция «Общее» / «Важное» — floating card */
 .tc-card--section {
   background: rgba(255, 255, 255, 1);
+  border-radius: 24px;
   padding: 16px 16px 20px 16px;
   margin: 0 0 8px;
   display: flex; flex-direction: column;
