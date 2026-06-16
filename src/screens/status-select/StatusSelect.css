@@ -64,10 +64,10 @@
   align-items: center;
   padding: 6px 12px;
   border-radius: var(--r-full);
-  font-size: var(--text-desc-ls-size);
-  font-weight: var(--text-desc-ls-weight);
-  line-height: var(--text-desc-ls-line);
-  letter-spacing: var(--text-desc-ls-ls);
+  font-size: var(--text-desc-l-size);
+  font-weight: var(--text-desc-l-weight);
+  line-height: var(--text-desc-l-line);
+  letter-spacing: var(--text-desc-l-ls);
   font-family: var(--font-family);
 }
 
