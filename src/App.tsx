@@ -66,7 +66,7 @@ function SplashGate() {
   useEffect(() => {
     if (screen !== "splash") return;
     const t = setTimeout(
-      () => dispatch({ type: "replace", to: "login" }),
+      () => dispatch({ type: "replace", to: "server-select" }),
       2000
     );
     return () => clearTimeout(t);

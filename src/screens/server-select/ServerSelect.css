@@ -1,0 +1,222 @@
+.ss-root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg-surface0);
+  font-family: var(--font-family);
+  padding: 0 16px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* ── Top: logo + title + subtitle ─────────────────────────────────────────── */
+
+.ss-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 32px;
+  flex-shrink: 0;
+}
+
+.ss-logo {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 20px;
+}
+
+.ss-title {
+  font-size: var(--text-h2-size);
+  line-height: var(--text-h2-line);
+  font-weight: var(--text-h2-weight);
+  letter-spacing: var(--text-h2-ls);
+  color: var(--color-fg-default);
+  margin: 0 0 8px;
+  text-align: center;
+}
+
+.ss-subtitle {
+  font-size: var(--text-body-m-size);
+  line-height: var(--text-body-m-line);
+  font-weight: var(--text-body-m-weight);
+  letter-spacing: var(--text-body-m-ls);
+  color: var(--color-fg-muted);
+  margin: 0;
+  text-align: center;
+}
+
+/* ── Form ─────────────────────────────────────────────────────────────────── */
+
+.ss-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.ss-input-wrap {
+  border: 1.5px solid var(--color-border-soft);
+  border-radius: var(--r-12);
+  background: var(--color-bg-surface2);
+  padding: 0 4px 0 12px;
+  box-sizing: border-box;
+  transition: border-color 0.15s;
+}
+
+.ss-input-wrap:focus-within {
+  border-color: var(--color-accent-default);
+}
+
+.ss-input-wrap--error {
+  border-color: var(--color-static-error, rgba(220,38,38,1));
+}
+
+.ss-input-row {
+  display: flex;
+  align-items: center;
+  min-height: 56px;
+}
+
+.ss-input-inner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+  cursor: text;
+}
+
+.ss-input-label {
+  font-size: var(--text-desc-m-size);
+  line-height: var(--text-desc-m-line);
+  font-weight: var(--text-desc-m-weight);
+  letter-spacing: var(--text-desc-m-ls);
+  color: var(--color-fg-muted);
+}
+
+.ss-input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: var(--text-body-m-size);
+  line-height: var(--text-body-m-line);
+  font-weight: var(--text-body-m-weight);
+  letter-spacing: var(--text-body-m-ls);
+  color: var(--color-fg-default);
+  font-family: var(--font-family);
+  width: 100%;
+  padding: 0;
+}
+
+.ss-input::placeholder {
+  color: var(--color-fg-disabled);
+}
+
+.ss-input-actions {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.ss-clear-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.ss-qr-btn {
+  background: var(--color-bg-surface3);
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--r-10);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.ss-error-text {
+  font-size: var(--text-desc-m-size);
+  line-height: var(--text-desc-m-line);
+  font-weight: var(--text-desc-m-weight);
+  letter-spacing: var(--text-desc-m-ls);
+  color: var(--color-static-error, rgba(220,38,38,1));
+  margin: 0;
+}
+
+/* ── Connect button ───────────────────────────────────────────────────────── */
+
+.ss-btn {
+  width: 100%;
+  height: 50px;
+  border-radius: var(--r-12);
+  border: none;
+  cursor: default;
+  font-size: var(--text-body-l-size);
+  line-height: var(--text-body-l-line);
+  font-weight: var(--text-body-l-weight);
+  letter-spacing: var(--text-body-l-ls);
+  font-family: var(--font-family);
+  background: var(--color-bg-surface3);
+  color: var(--color-fg-disabled);
+  transition: background 0.15s, color 0.15s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.ss-btn--active {
+  background: var(--color-accent-default);
+  color: var(--color-static-white);
+  cursor: pointer;
+}
+
+/* ── Footer ───────────────────────────────────────────────────────────────── */
+
+.ss-footer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 32px;
+  gap: 0;
+}
+
+.ss-policy {
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--color-fg-muted);
+  text-align: center;
+  margin: 0 0 16px;
+}
+
+.ss-policy-link {
+  color: var(--color-accent-default);
+}
+
+.ss-demo-btn {
+  width: 100%;
+  height: 50px;
+  border-radius: var(--r-12);
+  border: none;
+  cursor: pointer;
+  font-size: var(--text-body-l-size);
+  line-height: var(--text-body-l-line);
+  font-weight: var(--text-body-l-weight);
+  letter-spacing: var(--text-body-l-ls);
+  font-family: var(--font-family);
+  background: var(--color-bg-surface2);
+  color: var(--color-accent-default);
+  -webkit-tap-highlight-color: transparent;
+}

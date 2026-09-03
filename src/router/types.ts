@@ -5,6 +5,7 @@ export type TabId = "home" | "all-tasks" | "all-spaces";
 export type ScreenId =
   // Entry
   | "splash"
+  | "server-select"
   | "login"
   // Tab roots
   | "home"

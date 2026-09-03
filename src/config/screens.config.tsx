@@ -30,8 +30,9 @@ function placeholder(label: string): ScreenComponent {
 
 export const SCREENS: Record<ScreenId, ScreenComponent> = {
   // Entry
-  splash:          lazy(() => import("../screens/splash")),
-  login:           lazy(() => import("../screens/login")),
+  splash:            lazy(() => import("../screens/splash")),
+  "server-select":   lazy(() => import("../screens/server-select")),
+  login:             lazy(() => import("../screens/login")),
 
   // Tab roots
   home:            lazy(() => import("../screens/home")),

@@ -30,6 +30,16 @@ export const SCREEN_MANIFEST: Record<ScreenId, ScreenManifestEntry> = {
     ],
   },
 
+  "server-select": {
+    name: "Выбор сервера",
+    variants: [
+      { label: "пусто",        src: "/screens/server-select/empty.png" },
+      { label: "заполнено",    src: "/screens/server-select/filled.png" },
+      { label: "загрузка",     src: "/screens/server-select/loading.png" },
+      { label: "ошибка",       src: "/screens/server-select/error.png" },
+    ],
+  },
+
   login: {
     name: "Авторизация",
     variants: [
@@ -120,6 +130,27 @@ export const SCREEN_MANIFEST: Record<ScreenId, ScreenManifestEntry> = {
     name: "Пространства (kebab)",
     variants: [
       { label: "default", src: "/screens/spaces/default.png" },
+    ],
+  },
+
+  "priority-select": {
+    name: "Выбор приоритета",
+    variants: [
+      { label: "default", src: "/screens/priority-select/default.png" },
+    ],
+  },
+
+  "status-select": {
+    name: "Выбор статуса",
+    variants: [
+      { label: "default", src: "/screens/status-select/default.png" },
+    ],
+  },
+
+  "assignee-select": {
+    name: "Выбор исполнителя",
+    variants: [
+      { label: "default", src: "/screens/assignee-select/default.png" },
     ],
   },
 };
